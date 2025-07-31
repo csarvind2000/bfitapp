@@ -1,0 +1,19 @@
+{
+    "test_folder_dicom_nii": "/media/tct-bii/DataHDD/abdomen_fat/nnUNet/nnUNet/nnUNet_raw/Dataset696_Abdomen/800_ID_L3_DICOM",
+    "test_folder": "/media/tct-bii/DataHDD/abdomen_fat/nnUNet/nnUNet/nnUNet_raw/Dataset696_Abdomen/imagesTs/dicom2nii/original",
+    "region": "Abdomen",
+    "modality": "CT",
+    "directories": {
+        "Abdomen_CT": "/media/tct-bii/DataHDD/abdomen_fat/nnUNet/nnUNet/nnUNet_raw/Dataset696_Abdomen/imagesTs",
+        "Abdomen_MRI": "/media/tct-bii/DataHDD/abdomen_fat/nnUNet/nnUNet/nnUNet_raw/Dataset699_AbdomenMR/imagesTs",
+        "Thigh_CT": "/media/tct-bii/DataHDD/abdomen_fat/nnUNet/nnUNet/nnUNet_raw/Dataset698_Thighcorrected/imagesTs",
+        "Thigh_MRI": "/media/tct-bii/DataHDD/abdomen_fat/nnUNet/nnUNet/nnUNet_raw/Dataset697_Thigh/imagesTs"
+    },
+    "output_folders": {
+        "Abdomen_CT": "/media/tct-bii/DataHDD/abdomen_fat/nnUNet/nnUNet/nnUNet_results/Dataset696_Abdomen",
+        "Abdomen_MRI": "/media/tct-bii/DataHDD/abdomen_fat/nnUNet/nnUNet/nnUNet_results/Dataset699_AbdomenMR",
+        "Thigh_CT": "/media/tct-bii/DataHDD/abdomen_fat/nnUNet/nnUNet/nnUNet_results/Dataset698_Thighcorrected",
+        "Thigh_MRI": "/media/tct-bii/DataHDD/abdomen_fat/nnUNet/nnUNet/nnUNet_results/Dataset697_Thigh"
+    }
+}
+
