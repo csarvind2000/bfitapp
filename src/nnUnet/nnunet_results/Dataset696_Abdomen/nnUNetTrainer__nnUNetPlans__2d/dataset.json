@@ -1,0 +1,89 @@
+{
+    "channel_names": {
+        "1": "T1w"
+    },
+    "labels": {
+        "background": 0,
+        "SSAT": 1,
+        "DSAT": 2,
+        "VAT": 3,
+        "Muscles": 4
+    },
+    "numTraining": 18,
+    "file_ending": ".nii",
+    "training": [
+        {
+            "image": "./imagesTr/20220930_0000.nii",
+            "label": "./labelsTr/20220930.nii"
+        },
+        {
+            "image": "./imagesTr/20221014_0000.nii",
+            "label": "./labelsTr/20221014.nii"
+        },
+        {
+            "image": "./imagesTr/20221015_0000.nii",
+            "label": "./labelsTr/20221015.nii"
+        },
+        {
+            "image": "./imagesTr/20221031_0000.nii",
+            "label": "./labelsTr/20221031.nii"
+        },
+        {
+            "image": "./imagesTr/20221101_0000.nii",
+            "label": "./labelsTr/20221101.nii"
+        },
+        {
+            "image": "./imagesTr/20221102_0000.nii",
+            "label": "./labelsTr/20221102.nii"
+        },
+        {
+            "image": "./imagesTr/20221105_0000.nii",
+            "label": "./labelsTr/20221105.nii"
+        },
+        {
+            "image": "./imagesTr/20221112_0000.nii",
+            "label": "./labelsTr/20221112.nii"
+        },
+        {
+            "image": "./imagesTr/20221117_0000.nii",
+            "label": "./labelsTr/20221117.nii"
+        },
+        {
+            "image": "./imagesTr/20221118_0000.nii",
+            "label": "./labelsTr/20221118.nii"
+        },
+        {
+            "image": "./imagesTr/20221207_0000.nii",
+            "label": "./labelsTr/20221207.nii"
+        },
+        {
+            "image": "./imagesTr/20221208_0000.nii",
+            "label": "./labelsTr/20221208.nii"
+        },
+        {
+            "image": "./imagesTr/20221209_0000.nii",
+            "label": "./labelsTr/20221209.nii"
+        },
+        {
+            "image": "./imagesTr/20221212_0000.nii",
+            "label": "./labelsTr/20221212.nii"
+        },
+        {
+            "image": "./imagesTr/20221214_0000.nii",
+            "label": "./labelsTr/20221214.nii"
+        },
+        {
+            "image": "./imagesTr/20221215_0000.nii",
+            "label": "./labelsTr/20221215.nii"
+        },
+        {
+            "image": "./imagesTr/20221227_0000.nii",
+            "label": "./labelsTr/20221227.nii"
+        },
+        {
+            "image": "./imagesTr/20221229_0000.nii",
+            "label": "./labelsTr/20221229.nii"
+        }
+    ],
+    "test": []
+}

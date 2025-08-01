@@ -1,0 +1,177 @@
+name: bfit
+
+services:
+  redis:
+    image: redis:7.4
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    restart: unless-stopped
+
+
+  postgres:
+    image: postgres:17.4
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}" ]
+      interval: 5s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    restart: unless-stopped
+
+
+  backend:
+    build:
+      context: WebGUI/backend
+      dockerfile: Dockerfile
+      args:
+        APP_VERSION: ${VERSION}
+    ports:
+      - "8000:8000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_started
+    environment:
+      - MEDIA_ROOT=/media
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - POSTGRES_HOST=postgres
+      - POSTGRES_DB=${POSTGRES_DB}
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+      # Set the respective Flask API Inference endpoints
+      # - AI_ENDPOINT=
+    user: "${UID}:${GID:-${UID}}"
+    volumes:
+      - ${DOCKER_ROOT}/media:/media
+      - pacs-dicom-data:/pacs-dicom
+    restart: on-failure
+
+
+  # dicom_listener:
+  #   build:
+  #     context: dicom_listener
+  #     dockerfile: Dockerfile
+  #   environment:
+  #     - AE_HOST=${AE_HOST}
+  #     - AE_PORT=${AE_PORT}
+  #     - AE_TITLE=${AE_TITLE}
+  #   volumes:
+  #     - pacs-dicom-data:/app/data
+  #   network_mode: "host"
+  #   restart: always
+
+
+  frontend:
+    build:
+      context: WebGUI/frontend
+      dockerfile: Dockerfile
+      args:
+        VITE_APP_VERSION: ${VERSION}
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    environment:
+      - VITE_APP_API_URL=${BACKEND_URL}
+      - VITE_APP_AETITLE=${AE_TITLE}
+      - VITE_APP_AEPORT=${AE_PORT}
+    restart: on-failure
+
+
+  ai_worker:
+    build:
+      context: WebGUI/backend
+      dockerfile: Dockerfile.ai_worker
+      args:
+        APP_VERSION: ${VERSION}
+    depends_on:
+      redis:
+        condition: service_started
+      postgres:
+        condition: service_healthy
+    ports:
+      - "9001:9001"
+    environment:
+      - POSTGRES_HOST=postgres
+      - POSTGRES_DB=${POSTGRES_DB}
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+      - REDIS_HOST=redis
+      - NUM_WORKERS=1
+      # Set the respective Flask API Inference endpoints
+      # - AI_ENDPOINT=
+    user: "${UID}:${GID:-${UID}}"
+    volumes:
+      - ${DOCKER_ROOT}/media:/media
+    restart: unless-stopped
+
+
+  nnunet:
+    build:
+      context: nnUnet
+      dockerfile: Dockerfile
+    ports:
+      - 5000:5000
+    shm_size: '8gb'
+    depends_on:
+      - ai_worker
+    volumes:
+      - ${DOCKER_ROOT}/:/app/tmp
+    runtime: nvidia
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=0
+      - NVIDIA_DRIVER_CAPABILITIES=compute,utility
+    user: "${UID}:${GID:-${UID}}"
+    ipc: host
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [ gpu ]
+    restart: on-failure
+
+
+  # musclemap:
+  #   build:
+  #     context: musclemap
+  #     dockerfile: Dockerfile
+  #   ports:
+  #     - 5001:5001
+  #   shm_size: '8gb'
+  #   depends_on:
+  #     - ai_worker
+  #   volumes:
+  #     - ${DOCKER_ROOT}/:/app/tmp
+  #   runtime: nvidia
+  #   environment:
+  #     - NVIDIA_VISIBLE_DEVICES=0
+  #     - NVIDIA_DRIVER_CAPABILITIES=compute,utility
+  #   ipc: host
+  #   deploy:
+  #     resources:
+  #       reservations:
+  #         devices:
+  #           - driver: nvidia
+  #             count: all
+  #             capabilities: [ gpu ]
+  #   restart: on-failure
+
+  
+volumes:
+  postgres-data:
+  redis_data:
+  pacs-dicom-data:

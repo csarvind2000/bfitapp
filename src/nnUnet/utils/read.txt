@@ -1,0 +1,60 @@
+Before running app.py export the following commands in the terminal 
+
+export nnUNet_raw="/media/tct-bii/DataHDD/saisriya/nnUNet/nnunet_raw"
+export nnUNet_preprocessed="/media/tct-bii/DataHDD/saisriya/nnUNet/nnunet_preprocessed"
+export nnUNet_results="/media/tct-bii/DataHDD/saisriya/nnUNet/nnunet_results"
+
+
+for nii_path in nii_files:
+        try:
+            process_scan(
+                nii_path,
+                region,
+                modality,
+                {key: directory_map[key]},
+                segmentation_commands,
+                {key: dynamic_results_dir},
+                summary_rows=[]
+            )
+            segmented_files.append(os.path.basename(nii_path))
+
+            # if modality == "CT" and region == "Abdomen":
+            #     abd_ct_converter = DicomSegConverter(
+            #         input_dir=dynamic_results_dir,
+            #         dicom_ref=upload_result['dicom_folder'],
+            #         output_dir=os.path.join(dynamic_results_dir, 'dicom_seg'),
+            #         label_map=DEFAULT_ABDOMEN_LABEL_MAP,
+            #         rotate_180=True
+            #     )
+            #     abd_ct_converter.batch_convert()
+
+            # elif modality == "MR" and region == "Abdomen":
+            #     abd_mr_converter = DicomSegConverter(
+            #         input_dir=dynamic_results_dir,
+            #         dicom_ref=upload_result['dicom_folder'],
+            #         output_dir=os.path.join(dynamic_results_dir, 'dicom_seg'),
+            #         label_map=DEFAULT_ABDOMEN_LABEL_MAP,
+            #         rotate_180=True
+            #     )
+            #     abd_mr_converter.batch_convert()
+
+            # elif modality == "MR" and region == "Thigh":
+            #     thigh_mr_converter = DicomSegConverter(
+            #         input_dir=dynamic_results_dir,
+            #         dicom_ref=upload_result['dicom_folder'],
+            #         output_dir=os.path.join(dynamic_results_dir, 'dicom_seg'),
+            #         label_map=DEFAULT_THIGH_LABEL_MAP
+            #     )
+            #     thigh_mr_converter.batch_convert()
+
+            # elif modality == "CT" and region == "Thigh":
+            #     thigh_ct_converter = DicomSegConverter(
+            #         input_dir=dynamic_results_dir,
+            #         dicom_ref=upload_result['dicom_folder'],
+            #         output_dir=os.path.join(dynamic_results_dir, 'dicom_seg'),
+            #         label_map=DEFAULT_THIGH_LABEL_MAP
+            #     )
+            #     thigh_ct_converter.batch_convert()
+
+        except Exception as e:
+            return jsonify({'error': f'Failed for {nii_path}: {str(e)}'}), 500

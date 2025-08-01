@@ -1,0 +1,240 @@
+{
+    "foreground_mean": {
+        "Dice": 0.8702170421115023,
+        "FN": 1739.5625,
+        "FP": 2311.75,
+        "IoU": 0.775146431160634,
+        "TN": 241787.6875,
+        "TP": 16305.0,
+        "n_pred": 18616.75,
+        "n_ref": 18044.5625
+    },
+    "mean": {
+        "1": {
+            "Dice": 0.8933358146907924,
+            "FN": 2089.25,
+            "FP": 1977.0,
+            "IoU": 0.8075803788310243,
+            "TN": 240480.5,
+            "TP": 17597.25,
+            "n_pred": 19574.25,
+            "n_ref": 19686.5
+        },
+        "2": {
+            "Dice": 0.7799334565521133,
+            "FN": 1506.0,
+            "FP": 2537.25,
+            "IoU": 0.6396077183898733,
+            "TN": 251059.75,
+            "TP": 7041.0,
+            "n_pred": 9578.25,
+            "n_ref": 8547.0
+        },
+        "3": {
+            "Dice": 0.9037139823421839,
+            "FN": 1768.5,
+            "FP": 2621.75,
+            "IoU": 0.8269684479483715,
+            "TN": 235993.75,
+            "TP": 21760.0,
+            "n_pred": 24381.75,
+            "n_ref": 23528.5
+        },
+        "4": {
+            "Dice": 0.9038849148609195,
+            "FN": 1594.5,
+            "FP": 2111.0,
+            "IoU": 0.8264291794732663,
+            "TN": 239616.75,
+            "TP": 18821.75,
+            "n_pred": 20932.75,
+            "n_ref": 20416.25
+        }
+    },
+    "metric_per_case": [
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8944390898042995,
+                    "FN": 868,
+                    "FP": 1651,
+                    "IoU": 0.8090364642559321,
+                    "TN": 248953,
+                    "TP": 10672,
+                    "n_pred": 12323,
+                    "n_ref": 11540
+                },
+                "2": {
+                    "Dice": 0.8090264826557255,
+                    "FN": 1190,
+                    "FP": 858,
+                    "IoU": 0.6792984653930473,
+                    "TN": 255758,
+                    "TP": 4338,
+                    "n_pred": 5196,
+                    "n_ref": 5528
+                },
+                "3": {
+                    "Dice": 0.8321793444051712,
+                    "FN": 1576,
+                    "FP": 5356,
+                    "IoU": 0.7125917326588996,
+                    "TN": 238025,
+                    "TP": 17187,
+                    "n_pred": 22543,
+                    "n_ref": 18763
+                },
+                "4": {
+                    "Dice": 0.9335887096774194,
+                    "FN": 1867,
+                    "FP": 1427,
+                    "IoU": 0.8754490112300072,
+                    "TN": 235697,
+                    "TP": 23153,
+                    "n_pred": 24580,
+                    "n_ref": 25020
+                }
+            },
+            "prediction_file": "/media/tct-bii/DataHDD/abdomen_fat/nnUNet/nnUNet/nnUNet_results/Dataset696_Abdomen/nnUNetTrainer__nnUNetPlans__2d/fold_2/validation/20221105.nii",
+            "reference_file": "/media/tct-bii/DataHDD/abdomen_fat/nnUNet/nnUNet/nnUNet_preprocessed/Dataset696_Abdomen/gt_segmentations/20221105.nii"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9044939715016441,
+                    "FN": 2739,
+                    "FP": 1182,
+                    "IoU": 0.8256403415154749,
+                    "TN": 239656,
+                    "TP": 18567,
+                    "n_pred": 19749,
+                    "n_ref": 21306
+                },
+                "2": {
+                    "Dice": 0.761440317550326,
+                    "FN": 985,
+                    "FP": 3222,
+                    "IoU": 0.6147788664041755,
+                    "TN": 251223,
+                    "TP": 6714,
+                    "n_pred": 9936,
+                    "n_ref": 7699
+                },
+                "3": {
+                    "Dice": 0.9216491496717013,
+                    "FN": 1306,
+                    "FP": 2071,
+                    "IoU": 0.8546839364860794,
+                    "TN": 238905,
+                    "TP": 19862,
+                    "n_pred": 21933,
+                    "n_ref": 21168
+                },
+                "4": {
+                    "Dice": 0.8949531737773153,
+                    "FN": 998,
+                    "FP": 3040,
+                    "IoU": 0.809878054522341,
+                    "TN": 240905,
+                    "TP": 17201,
+                    "n_pred": 20241,
+                    "n_ref": 18199
+                }
+            },
+            "prediction_file": "/media/tct-bii/DataHDD/abdomen_fat/nnUNet/nnUNet/nnUNet_results/Dataset696_Abdomen/nnUNetTrainer__nnUNetPlans__2d/fold_2/validation/20221214.nii",
+            "reference_file": "/media/tct-bii/DataHDD/abdomen_fat/nnUNet/nnUNet/nnUNet_preprocessed/Dataset696_Abdomen/gt_segmentations/20221214.nii"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8678129866827703,
+                    "FN": 1223,
+                    "FP": 2936,
+                    "IoU": 0.7664926169221268,
+                    "TN": 244333,
+                    "TP": 13652,
+                    "n_pred": 16588,
+                    "n_ref": 14875
+                },
+                "2": {
+                    "Dice": 0.7713096527738184,
+                    "FN": 2262,
+                    "FP": 1749,
+                    "IoU": 0.6277494199535962,
+                    "TN": 251369,
+                    "TP": 6764,
+                    "n_pred": 8513,
+                    "n_ref": 9026
+                },
+                "3": {
+                    "Dice": 0.9183394963902095,
+                    "FN": 2205,
+                    "FP": 1505,
+                    "IoU": 0.8490089943429245,
+                    "TN": 237573,
+                    "TP": 20861,
+                    "n_pred": 22366,
+                    "n_ref": 23066
+                },
+                "4": {
+                    "Dice": 0.9361971207554328,
+                    "FN": 1889,
+                    "FP": 1138,
+                    "IoU": 0.8800475530017833,
+                    "TN": 236909,
+                    "TP": 22208,
+                    "n_pred": 23346,
+                    "n_ref": 24097
+                }
+            },
+            "prediction_file": "/media/tct-bii/DataHDD/abdomen_fat/nnUNet/nnUNet/nnUNet_results/Dataset696_Abdomen/nnUNetTrainer__nnUNetPlans__2d/fold_2/validation/20221227.nii",
+            "reference_file": "/media/tct-bii/DataHDD/abdomen_fat/nnUNet/nnUNet/nnUNet_preprocessed/Dataset696_Abdomen/gt_segmentations/20221227.nii"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9065972107744552,
+                    "FN": 3527,
+                    "FP": 2139,
+                    "IoU": 0.8291520926305632,
+                    "TN": 228980,
+                    "TP": 27498,
+                    "n_pred": 29637,
+                    "n_ref": 31025
+                },
+                "2": {
+                    "Dice": 0.7779573732285833,
+                    "FN": 1587,
+                    "FP": 4320,
+                    "IoU": 0.6366041218086742,
+                    "TN": 245889,
+                    "TP": 10348,
+                    "n_pred": 14668,
+                    "n_ref": 11935
+                },
+                "3": {
+                    "Dice": 0.9426879389016537,
+                    "FN": 1987,
+                    "FP": 1555,
+                    "IoU": 0.8915891283055828,
+                    "TN": 229472,
+                    "TP": 29130,
+                    "n_pred": 30685,
+                    "n_ref": 31117
+                },
+                "4": {
+                    "Dice": 0.8508006552335106,
+                    "FN": 1624,
+                    "FP": 2839,
+                    "IoU": 0.7403420991389341,
+                    "TN": 244956,
+                    "TP": 12725,
+                    "n_pred": 15564,
+                    "n_ref": 14349
+                }
+            },
+            "prediction_file": "/media/tct-bii/DataHDD/abdomen_fat/nnUNet/nnUNet/nnUNet_results/Dataset696_Abdomen/nnUNetTrainer__nnUNetPlans__2d/fold_2/validation/20221229.nii",
+            "reference_file": "/media/tct-bii/DataHDD/abdomen_fat/nnUNet/nnUNet/nnUNet_preprocessed/Dataset696_Abdomen/gt_segmentations/20221229.nii"
+        }
+    ]
+}

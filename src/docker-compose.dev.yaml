@@ -1,0 +1,30 @@
+name: bfit
+
+services:
+  backend:
+    volumes:
+      - ${PWD}/WebGUI/backend/src:/backend
+
+  frontend:
+    volumes:
+      - ${PWD}/WebGUI/frontend:/app
+
+  ai_worker:
+    volumes:
+      - ${PWD}/WebGUI/backend/src:/backend
+    
+  nnunet:
+    volumes:
+      - ${PWD}/nnUnet:/app
+  
+
+  ai_worker_mon:
+    image: cjlapao/rq-dashboard
+    ports:
+      - '9181:9181'
+    depends_on:
+      - ai_worker
+    entrypoint: python3 -m rq_dashboard --redis-url redis://redis:6379 --debug
+    attach: false
+    
+    

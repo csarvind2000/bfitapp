@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.DS_Store
+*.pid
+# Libraries
+.venv
+venv
+node_modules
+# IDE-related
+.idea/**
+.vscode/**
+# Unit test
+.pytest_cache/**
+# ESLint
+.eslintcache
+# Django staticfiles
+staticfiles
+# Local .env variables
+.env
+# Exported docker images
+docker_dist
+# Logs
+*.log
+# Model weights
+*.pt[h]
+# Datasets/nnunet outputs
+*.nii
+*.nii.gz
+*.npz
+*.npy
+*.pkl
