@@ -251,7 +251,7 @@ export default function AnalysisResultToolGrid({ analysisResult }) {
                   size="small"
                   sx={{ borderRadius: 1.5 }}
                   onClick={openBoundEAT}
-                  disabled={queue !== Queue.EAT || !segmentationTypeLoaded}
+                  // disabled={queue !== Queue.EAT || !segmentationTypeLoaded}
                 >
                   <ExpandIcon />
                 </IconButton>

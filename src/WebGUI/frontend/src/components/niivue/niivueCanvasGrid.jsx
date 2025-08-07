@@ -12,8 +12,8 @@ const NVSLICE_TYPES = {
 };
 /* Niivue Windowing tweaks
  */
-const defaultWindowMin = -200;
-const defaultWindowMax = 600;
+const defaultWindowMin = 0;
+const defaultWindowMax = 800;
 
 export default function NiivueCanvasGrid({ nvImage }) {
   const {

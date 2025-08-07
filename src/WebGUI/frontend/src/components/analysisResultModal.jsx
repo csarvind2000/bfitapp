@@ -421,7 +421,7 @@ export default function AnalysisResultModal({ open, onClose, analysisId }) {
       const response = await analysisService.getDetail(
         analysisId,
         ["artifacts"],
-        { artifacts: AnalysisResultTypes.ORIGINAL_CT }
+        { artifacts: AnalysisResultTypes.ORIGINAL_MR }
       );
       // console.debug(`Got response ${JSON.stringify(response)}`);
       return response;

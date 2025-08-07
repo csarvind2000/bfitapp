@@ -693,7 +693,7 @@ class AnalysisViewSet(ModelViewSet):
             # Enqueue analysis job to RQ queue
             if serie.anatomy == Series.Anatomy.ABD:
                 # TODO
-                job = abdomen.delay(dicoms=dicoms)
+                job = abdomen.delay(dicoms=dicoms, modality=serie.modality)
                 abd_analysis = Analysis.objects.create(
                     pk=job.id,
                     queue=Analysis.Queue.ABDOMEN,
@@ -705,7 +705,7 @@ class AnalysisViewSet(ModelViewSet):
                 jobs.append(abd_analysis)
             elif serie.anatomy == Series.Anatomy.THIGH:
                 # TODO
-                job = thigh.delay(dicoms=dicoms)
+                job = thigh.delay(dicoms=dicoms, modality=serie.modality)
                 thigh_analysis = Analysis.objects.create(
                     pk=job.id,
                     queue=Analysis.Queue.THIGH,

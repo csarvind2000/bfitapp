@@ -3,6 +3,8 @@ import time
 import logging
 import requests
 import json
+import io
+import csv
 import base64
 from django_rq import job
 from django.core.files.base import ContentFile
@@ -80,7 +82,7 @@ def report_failure(job, connection, type, value, traceback):
 
 
 @job(
-    "abd",
+    "nnunet",
     timeout=3600,
     result_ttl=0,
     on_success=report_success,
@@ -96,7 +98,7 @@ def abdomen(dicoms, modality):
         logger.info(f"base64 encoded {fp}")
         encoded_images.append(encoded_f)
 
-    payload = {"data": encoded_images}
+    payload = {"b64_encoded_dicoms": encoded_images}
     endpoint = NNUNET_ABD_MR_ENDPOINT if modality == Series.Modality.MR else NNUNET_ABD_CT_ENDPOINT
     start = time.perf_counter()
     response = requests.post(
@@ -109,17 +111,27 @@ def abdomen(dicoms, modality):
     response.raise_for_status()
     end = time.perf_counter()
     logger.info(f"Abdomen analysis completed in {end-start:.2f} seconds")
+    response = response.json()
 
     result = {}
-    result['artifacts'] = {
-        f"ORIGINAL {modality.upper()}": ()
+    result['artifact'] = {
+        f"ORIGINAL {modality.upper()}": (response["original_nifti_files"][0]["filename"], response["original_nifti_files"][0]["b64_data"]),
+        "ABD DSAT VOLUME PLOT": (response["volume_plots"]["DSAT"]["filename"], response["volume_plots"]["DSAT"]["b64_data"]),
+        "ABD SSAT VOLUME PLOT": (response["volume_plots"]["SSAT"]["filename"], response["volume_plots"]["SSAT"]["b64_data"]),
+        "ABD VAT VOLUME PLOT": (response["volume_plots"]["VAT"]["filename"], response["volume_plots"]["VAT"]["b64_data"])
     }
+    result['segmentation'] = {
+        f"{modality.upper()} ABD MASK": (response["segmented_nifti_files"][0]["filename"], response["segmented_nifti_files"][0]["b64_data"])
+    }
+    decoded_df = base64.b64decode(response["volume_csv"]["b64_data"]).decode()
+    reader = csv.DictReader(io.StringIO(decoded_df))
+    result['prediction'] = list(reader)
     
-    return response.json()
+    return result
 
 
 @job(
-    "thigh",
+    "nnunet",
     timeout=3600,
     result_ttl=0,
     on_success=report_success,
@@ -135,7 +147,7 @@ def thigh(dicoms, modality):
         logger.info(f"base64 encoded {fp}")
         encoded_images.append(encoded_f)
 
-    payload = {"data": encoded_images}
+    payload = {"b64_encoded_dicoms": encoded_images}
     endpoint = NNUNET_THIGH_MR_ENDPOINT if modality == Series.Modality.MR else NNUNET_THIGH_CT_ENDPOINT
     start = time.perf_counter()
     response = requests.post(
@@ -148,8 +160,23 @@ def thigh(dicoms, modality):
     response.raise_for_status()
     end = time.perf_counter()
     logger.info(f"Thigh analysis completed in {end-start:.2f} seconds")
+    response = response.json()
 
-    return response.json()
+    result = {}
+    result['artifact'] = {
+        f"ORIGINAL {modality.upper()}": (response["original_nifti_files"][0]["filename"], response["original_nifti_files"][0]["b64_data"]),
+        "THIGH IMAT VOLUME PLOT": (response["volume_plots"]["IMAT"]["filename"], response["volume_plots"]["IMAT"]["b64_data"]),
+        "THIGH SSAT VOLUME PLOT": (response["volume_plots"]["SSAT"]["filename"], response["volume_plots"]["SSAT"]["b64_data"]),
+        "THIGH MUSCLES VOLUME PLOT": (response["volume_plots"]["Muscle"]["filename"], response["volume_plots"]["Muscle"]["b64_data"])
+    }
+    result['segmentation'] = {
+        f"{modality.upper()} THIGH MASK": (response["segmented_nifti_files"][0]["filename"], response["segmented_nifti_files"][0]["b64_data"])
+    }
+    decoded_df = base64.b64decode(response["volume_csv"]["b64_data"]).decode()
+    reader = csv.DictReader(io.StringIO(decoded_df))
+    result['prediction'] = list(reader)
+
+    return result
 
 
 @job(

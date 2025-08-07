@@ -203,9 +203,9 @@ function StudyAccordionTableRowMenu({
 
   const isAnalysing =
     analysisDetail &&
-    analysisDetail.find(
-      (e) => e.series === seriesId && e.status === AnalysisStatus.PROCESSING
-    )
+      analysisDetail.find(
+        (e) => e.series === seriesId && e.status === AnalysisStatus.PROCESSING
+      )
       ? true
       : false;
 
@@ -470,7 +470,8 @@ function StudyAccordionTable({ studyId, seriesList, removeSeries }) {
                   />
                 </TableCell>
                 <TableCell>Series UID</TableCell>
-                <TableCell align="center">Type</TableCell>
+                <TableCell align="center">Anatomy</TableCell>
+                <TableCell align="center">Modality</TableCell>
                 <TableCell align="center">Instances</TableCell>
                 <TableCell align="center">Status</TableCell>
                 <TableCell align="center">Analysis</TableCell>
@@ -504,8 +505,13 @@ function StudyAccordionTable({ studyId, seriesList, removeSeries }) {
                       {serie.series_id}
                     </TableCell>
                     <TableCell align="center">
-                      {serie.modality === "ctca" ? "Contrast" : "Non-contrast"}
+                      {serie.anatomy === "thigh"
+                        ? "Thigh"
+                        : serie.anatomy === "abd"
+                          ? "Abdomen"
+                          : "Unknown"}
                     </TableCell>
+                    <TableCell align="center">{serie.modality === "ct" ? "CT" : "MR"}</TableCell>
                     <TableCell align="right">{serie.num_frames}</TableCell>
                     <TableCell align="center">
                       <SerieAnalysisStatus analysisDetail={analysisDetail} />

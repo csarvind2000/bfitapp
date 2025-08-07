@@ -51,7 +51,10 @@ services:
       - POSTGRES_USER=${POSTGRES_USER}
       - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
       # Set the respective Flask API Inference endpoints
-      # - AI_ENDPOINT=
+      - NNUNET_ABD_MR_ENDPOINT=http://nnunet:5000/segment/abdomen-mr
+      - NNUNET_ABD_CT_ENDPOINT=http://nnunet:5000/segment/abdomen-ct
+      - NNUNET_THIGH_MR_ENDPOINT=http://nnunet:5000/segment/thigh-mr
+      - NNUNET_THIGH_CT_ENDPOINT=http://nnunet:5000/segment/thigh-ct
     user: "${UID}:${GID:-${UID}}"
     volumes:
       - ${DOCKER_ROOT}/media:/media
@@ -109,9 +112,12 @@ services:
       - POSTGRES_USER=${POSTGRES_USER}
       - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
       - REDIS_HOST=redis
-      - NUM_WORKERS=1
       # Set the respective Flask API Inference endpoints
-      # - AI_ENDPOINT=
+      - NNUNET_ABD_MR_ENDPOINT=http://nnunet:5000/segment/abdomen-mr
+      - NNUNET_ABD_CT_ENDPOINT=http://nnunet:5000/segment/abdomen-ct
+      - NNUNET_THIGH_MR_ENDPOINT=http://nnunet:5000/segment/thigh-mr
+      - NNUNET_THIGH_CT_ENDPOINT=http://nnunet:5000/segment/thigh-ct
+      - NUM_WORKERS=1
     user: "${UID}:${GID:-${UID}}"
     volumes:
       - ${DOCKER_ROOT}/media:/media

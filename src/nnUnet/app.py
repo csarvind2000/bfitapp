@@ -1,4 +1,5 @@
 import os
+import json
 import base64
 import tempfile
 import contextlib
@@ -9,7 +10,7 @@ from utils.converter1 import DicomSegConverter
 from utils.fatPlotTest import genericVolumeAnalysis
 from utils.converter1 import DEFAULT_ABDOMEN_LABEL_MAP, DEFAULT_THIGH_LABEL_MAP
 
-DEBUG = bool(os.environ.get("DEBUG_MODE", True))
+DEBUG = os.environ.get("DEBUG_MODE", "true") == "true"
 
 NNUNET_BASE = "."
 os.environ["nnUNet_raw"] = os.path.join(NNUNET_BASE, "nnunet_raw")
@@ -166,7 +167,7 @@ def process_request(upload_result, region: str, modality: str):
                     'b64_data': base64.b64encode(f.read()).decode('utf-8')
                 })
 
-    return jsonify({
+    return {
         'segmented_nifti_files': segmented_nifti_files,
         'segmented_dcm_files': segmented_dcm_files,
         'original_nifti_files': original_nifti_files,
@@ -175,7 +176,7 @@ def process_request(upload_result, region: str, modality: str):
             'filename': prediction_csv_name,
             'b64_data': prediction_csv_b64
         } if prediction_csv_b64 else None
-    })
+    }
 
 @app.route('/segment/abdomen-ct', methods=['POST'])
 def segment_abdomen_ct():
@@ -187,9 +188,13 @@ def segment_abdomen_ct():
 @app.route('/segment/abdomen-mr', methods=['POST'])
 def segment_abdomen_mr():
     upload_result = upload_files("Abdomen", "MRI")
+    print(upload_result, flush=True)
     if upload_result is None:
         return jsonify({'error': 'No valid files uploaded'}), 400
-    return process_request(upload_result, "Abdomen", "MRI")
+    res = process_request(upload_result, "Abdomen", "MRI")
+    # with open("res.json", 'w') as f:
+    #     json.dump(res, f, indent=2)
+    return jsonify(res)
 
 @app.route('/segment/thigh-ct', methods=['POST'])
 def segment_thigh_ct():
@@ -207,4 +212,4 @@ def segment_thigh_mr():
     return process_request(upload_result, "Thigh", "MRI")
 
 if __name__ == '__main__':
-    app.run(host="0.0.0", port=5000, debug=True)
+    app.run(host="0.0.0", port=5000, debug=True, threaded=False)

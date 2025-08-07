@@ -50,7 +50,7 @@ class StudySerializer(serializers.ModelSerializer):
 class SeriesSerializer(serializers.ModelSerializer):
     class Meta:
         model = Series
-        fields = ["series_id", "modality", "num_frames", "created_at"]
+        fields = ["series_id", "modality", "anatomy", "num_frames", "created_at"]
 
 
 class InstanceSerializer(serializers.ModelSerializer):
