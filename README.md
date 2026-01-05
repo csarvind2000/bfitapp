@@ -1,6 +1,7 @@
 If you are using docker server, run the following command:
     UID="$(id -u)" GID="$(id -g)" docker compose -f docker-compose.yaml -f docker-compose.dev.yaml down
 
+    ## docker compose -f docker-compose.yaml -f docker-compose.dev.yaml up -d (for ref ONLY)
 
 If you only want to run the flask app:
 
