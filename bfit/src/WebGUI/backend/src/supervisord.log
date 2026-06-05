@@ -1,0 +1,1875 @@
+2025-08-01 03:58:05,237 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-08-01 03:58:05,247 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2025-08-01 03:58:05,247 INFO supervisord started with pid 1
+2025-08-01 03:58:06,250 INFO spawned: 'rqworker-0' with pid 7
+2025-08-01 03:58:06,252 INFO spawned: 'rqworker-default-0' with pid 8
+2025-08-01 03:58:07,256 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-01 03:58:07,256 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-01 03:58:32,861 WARN received SIGTERM indicating exit request
+2025-08-01 03:58:32,861 INFO waiting for rqworker-0, rqworker-default-0 to die
+2025-08-01 03:58:33,173 INFO stopped: rqworker-default-0 (exit status 0)
+2025-08-01 03:58:33,449 INFO stopped: rqworker-0 (exit status 0)
+2025-08-01 04:01:01,362 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-08-01 04:01:01,372 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2025-08-01 04:01:01,372 INFO supervisord started with pid 1
+2025-08-01 04:01:02,375 INFO spawned: 'rqworker-0' with pid 7
+2025-08-01 04:01:02,378 INFO spawned: 'rqworker-default-0' with pid 8
+2025-08-01 04:01:03,379 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-01 04:01:03,379 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-01 05:45:56,898 WARN received SIGTERM indicating exit request
+2025-08-01 05:45:56,899 INFO waiting for rqworker-0, rqworker-default-0 to die
+2025-08-01 05:45:57,157 INFO stopped: rqworker-default-0 (exit status 0)
+2025-08-01 05:45:57,382 INFO stopped: rqworker-0 (exit status 0)
+2025-08-01 06:06:21,784 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-08-01 06:06:21,793 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2025-08-01 06:06:21,794 INFO supervisord started with pid 1
+2025-08-01 06:06:22,797 INFO spawned: 'rqworker-0' with pid 7
+2025-08-01 06:06:22,800 INFO spawned: 'rqworker-default-0' with pid 8
+2025-08-01 06:06:23,803 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-01 06:06:23,803 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-01 06:19:11,262 WARN received SIGTERM indicating exit request
+2025-08-01 06:19:11,263 INFO waiting for rqworker-0, rqworker-default-0 to die
+2025-08-01 06:19:12,552 INFO stopped: rqworker-default-0 (exit status 0)
+2025-08-01 06:19:13,768 INFO stopped: rqworker-0 (exit status 0)
+2025-08-01 06:19:45,712 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-08-01 06:19:45,722 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2025-08-01 06:19:45,722 INFO supervisord started with pid 1
+2025-08-01 06:19:46,725 INFO spawned: 'rqworker-0' with pid 7
+2025-08-01 06:19:46,731 INFO spawned: 'rqworker-default-0' with pid 8
+2025-08-01 06:19:47,732 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-01 06:19:47,732 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-01 06:21:49,463 WARN received SIGTERM indicating exit request
+2025-08-01 06:21:49,463 INFO waiting for rqworker-0, rqworker-default-0 to die
+2025-08-01 06:21:49,751 INFO stopped: rqworker-default-0 (exit status 0)
+2025-08-01 06:21:50,089 INFO stopped: rqworker-0 (exit status 0)
+2025-08-01 06:24:43,220 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-08-01 06:24:43,229 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2025-08-01 06:24:43,230 INFO supervisord started with pid 1
+2025-08-01 06:24:44,232 INFO spawned: 'rqworker-0' with pid 7
+2025-08-01 06:24:44,235 INFO spawned: 'rqworker-default-0' with pid 8
+2025-08-01 06:24:45,236 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-01 06:24:45,236 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-01 06:34:02,469 WARN received SIGTERM indicating exit request
+2025-08-01 06:34:02,470 INFO waiting for rqworker-0, rqworker-default-0 to die
+2025-08-01 06:34:02,737 INFO stopped: rqworker-default-0 (exit status 0)
+2025-08-01 06:34:03,074 INFO stopped: rqworker-0 (exit status 0)
+2025-08-01 06:37:36,498 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-08-01 06:37:36,509 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2025-08-01 06:37:36,510 INFO supervisord started with pid 1
+2025-08-01 06:37:37,512 INFO spawned: 'rqworker-0' with pid 7
+2025-08-01 06:37:37,515 INFO spawned: 'rqworker-default-0' with pid 8
+2025-08-01 06:37:38,516 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-01 06:37:38,516 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-01 06:40:14,380 WARN received SIGTERM indicating exit request
+2025-08-01 06:40:14,381 INFO waiting for rqworker-0, rqworker-default-0 to die
+2025-08-01 06:40:15,724 INFO stopped: rqworker-default-0 (exit status 0)
+2025-08-01 06:40:15,994 INFO stopped: rqworker-0 (exit status 0)
+2025-08-01 06:41:27,493 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-08-01 06:41:27,505 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2025-08-01 06:41:27,505 INFO supervisord started with pid 1
+2025-08-01 06:41:28,508 INFO spawned: 'rqworker-0' with pid 7
+2025-08-01 06:41:28,511 INFO spawned: 'rqworker-default-0' with pid 8
+2025-08-01 06:41:29,514 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-01 06:41:29,514 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-01 06:57:02,436 WARN received SIGTERM indicating exit request
+2025-08-01 06:57:02,437 INFO waiting for rqworker-0, rqworker-default-0 to die
+2025-08-01 06:57:02,690 INFO stopped: rqworker-default-0 (exit status 0)
+2025-08-01 06:57:02,960 INFO stopped: rqworker-0 (exit status 0)
+2025-08-01 07:00:29,551 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-08-01 07:00:29,560 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2025-08-01 07:00:29,561 INFO supervisord started with pid 1
+2025-08-01 07:00:30,567 INFO spawned: 'rqworker-0' with pid 7
+2025-08-01 07:00:30,569 INFO spawned: 'rqworker-default-0' with pid 8
+2025-08-01 07:00:31,571 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-01 07:00:31,571 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-01 08:36:16,931 WARN received SIGTERM indicating exit request
+2025-08-01 08:36:16,932 INFO waiting for rqworker-0, rqworker-default-0 to die
+2025-08-01 08:36:17,282 INFO stopped: rqworker-default-0 (exit status 0)
+2025-08-01 08:36:17,500 INFO stopped: rqworker-0 (exit status 0)
+2025-08-06 09:31:51,121 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-08-06 09:31:51,841 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2025-08-06 09:31:51,841 INFO supervisord started with pid 1
+2025-08-06 09:31:52,845 INFO spawned: 'rqworker-0' with pid 7
+2025-08-06 09:31:52,847 INFO spawned: 'rqworker-default-0' with pid 8
+2025-08-06 09:31:53,849 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-06 09:31:53,849 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-06 10:33:24,132 WARN received SIGTERM indicating exit request
+2025-08-06 10:33:24,132 INFO waiting for rqworker-0, rqworker-default-0 to die
+2025-08-06 10:33:25,649 INFO stopped: rqworker-default-0 (exit status 0)
+2025-08-06 10:33:25,895 INFO stopped: rqworker-0 (exit status 0)
+2025-08-06 10:43:02,246 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-08-06 10:43:02,256 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2025-08-06 10:43:02,257 INFO supervisord started with pid 1
+2025-08-06 10:43:03,260 INFO spawned: 'rqworker-0' with pid 7
+2025-08-06 10:43:03,263 INFO spawned: 'rqworker-default-0' with pid 8
+2025-08-06 10:43:04,264 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-06 10:43:04,264 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-06 10:48:39,434 WARN received SIGTERM indicating exit request
+2025-08-06 10:48:39,435 INFO waiting for rqworker-0, rqworker-default-0 to die
+2025-08-06 10:48:39,622 INFO stopped: rqworker-default-0 (exit status 0)
+2025-08-06 10:48:39,917 INFO stopped: rqworker-0 (exit status 0)
+2025-08-06 10:51:12,778 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-08-06 10:51:12,787 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2025-08-06 10:51:12,788 INFO supervisord started with pid 1
+2025-08-06 10:51:13,791 INFO spawned: 'rqworker-0' with pid 7
+2025-08-06 10:51:13,793 INFO spawned: 'rqworker-default-0' with pid 8
+2025-08-06 10:51:14,795 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-06 10:51:14,795 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-07 02:37:23,620 WARN received SIGTERM indicating exit request
+2025-08-07 02:37:23,637 INFO waiting for rqworker-0, rqworker-default-0 to die
+2025-08-07 02:37:25,368 INFO stopped: rqworker-default-0 (exit status 0)
+2025-08-07 02:37:26,761 INFO stopped: rqworker-0 (exit status 0)
+2025-08-07 02:41:32,347 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-08-07 02:41:32,357 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2025-08-07 02:41:32,358 INFO supervisord started with pid 1
+2025-08-07 02:41:33,361 INFO spawned: 'rqworker-0' with pid 7
+2025-08-07 02:41:33,363 INFO spawned: 'rqworker-default-0' with pid 8
+2025-08-07 02:41:34,365 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-07 02:41:34,365 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-07 02:49:09,428 WARN received SIGTERM indicating exit request
+2025-08-07 02:49:09,428 INFO waiting for rqworker-0, rqworker-default-0 to die
+2025-08-07 02:49:09,715 INFO stopped: rqworker-default-0 (exit status 0)
+2025-08-07 02:49:10,054 INFO stopped: rqworker-0 (exit status 0)
+2025-08-07 02:53:53,803 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-08-07 02:53:53,814 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2025-08-07 02:53:53,814 INFO supervisord started with pid 1
+2025-08-07 02:53:54,818 INFO spawned: 'rqworker-0' with pid 7
+2025-08-07 02:53:54,820 INFO spawned: 'rqworker-default-0' with pid 8
+2025-08-07 02:53:55,821 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-07 02:53:55,825 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-07 02:58:42,064 WARN received SIGTERM indicating exit request
+2025-08-07 02:58:42,080 INFO waiting for rqworker-0, rqworker-default-0 to die
+2025-08-07 02:58:43,620 INFO stopped: rqworker-default-0 (exit status 0)
+2025-08-07 02:58:44,804 INFO stopped: rqworker-0 (exit status 0)
+2025-08-07 03:01:22,126 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-08-07 03:01:22,136 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2025-08-07 03:01:22,136 INFO supervisord started with pid 1
+2025-08-07 03:01:23,139 INFO spawned: 'rqworker-0' with pid 7
+2025-08-07 03:01:23,142 INFO spawned: 'rqworker-default-0' with pid 8
+2025-08-07 03:01:24,144 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-07 03:01:24,144 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-07 03:10:10,449 WARN received SIGTERM indicating exit request
+2025-08-07 03:10:10,449 INFO waiting for rqworker-0, rqworker-default-0 to die
+2025-08-07 03:10:11,314 INFO stopped: rqworker-default-0 (exit status 0)
+2025-08-07 03:10:12,659 INFO stopped: rqworker-0 (exit status 0)
+2025-08-07 03:12:41,227 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-08-07 03:12:41,236 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2025-08-07 03:12:41,237 INFO supervisord started with pid 1
+2025-08-07 03:12:42,240 INFO spawned: 'rqworker-0' with pid 7
+2025-08-07 03:12:42,242 INFO spawned: 'rqworker-default-0' with pid 8
+2025-08-07 03:12:43,244 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-07 03:12:43,244 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-07 04:01:34,645 WARN received SIGTERM indicating exit request
+2025-08-07 04:01:34,657 INFO waiting for rqworker-0, rqworker-default-0 to die
+2025-08-07 04:01:36,240 INFO stopped: rqworker-default-0 (exit status 0)
+2025-08-07 04:01:37,485 INFO stopped: rqworker-0 (exit status 0)
+2025-08-07 04:04:13,797 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-08-07 04:04:13,807 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2025-08-07 04:04:13,808 INFO supervisord started with pid 1
+2025-08-07 04:04:14,811 INFO spawned: 'rqworker-0' with pid 7
+2025-08-07 04:04:14,813 INFO spawned: 'rqworker-default-0' with pid 8
+2025-08-07 04:04:15,815 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-07 04:04:15,815 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-08 01:11:17,963 WARN received SIGTERM indicating exit request
+2025-08-08 01:11:17,963 INFO waiting for rqworker-0, rqworker-default-0 to die
+2025-08-08 01:11:18,346 INFO stopped: rqworker-default-0 (exit status 0)
+2025-08-08 01:11:19,749 INFO stopped: rqworker-0 (exit status 0)
+2025-08-08 01:13:03,910 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-08-08 01:13:04,226 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2025-08-08 01:13:04,226 INFO supervisord started with pid 1
+2025-08-08 01:13:05,230 INFO spawned: 'rqworker-0' with pid 7
+2025-08-08 01:13:05,232 INFO spawned: 'rqworker-default-0' with pid 8
+2025-08-08 01:13:06,234 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-08 01:13:06,234 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-12 03:27:27,810 WARN received SIGTERM indicating exit request
+2025-08-12 03:27:27,820 INFO waiting for rqworker-0, rqworker-default-0 to die
+2025-08-12 03:27:29,347 INFO stopped: rqworker-default-0 (exit status 0)
+2025-08-12 03:27:29,686 INFO stopped: rqworker-0 (exit status 0)
+2025-08-12 03:28:18,377 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-08-12 03:28:18,388 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2025-08-12 03:28:18,388 INFO supervisord started with pid 1
+2025-08-12 03:28:19,391 INFO spawned: 'rqworker-0' with pid 7
+2025-08-12 03:28:19,393 INFO spawned: 'rqworker-default-0' with pid 8
+2025-08-12 03:28:20,395 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-12 03:28:20,396 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-12 09:25:53,228 WARN received SIGTERM indicating exit request
+2025-08-12 09:25:53,228 INFO waiting for rqworker-0, rqworker-default-0 to die
+2025-08-12 09:25:53,500 INFO stopped: rqworker-default-0 (exit status 0)
+2025-08-12 09:25:53,802 INFO stopped: rqworker-0 (exit status 0)
+2025-08-12 09:26:24,254 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-08-12 09:26:24,266 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2025-08-12 09:26:24,266 INFO supervisord started with pid 1
+2025-08-12 09:26:25,269 INFO spawned: 'rqworker-0' with pid 7
+2025-08-12 09:26:25,272 INFO spawned: 'rqworker-default-0' with pid 8
+2025-08-12 09:26:26,273 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-12 09:26:26,273 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-21 04:27:13,301 WARN received SIGTERM indicating exit request
+2025-08-21 04:27:13,316 INFO waiting for rqworker-0, rqworker-default-0 to die
+2025-08-21 04:27:13,981 INFO stopped: rqworker-default-0 (exit status 0)
+2025-08-21 04:27:14,291 INFO stopped: rqworker-0 (exit status 0)
+2025-08-21 04:34:20,661 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-08-21 04:34:20,676 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2025-08-21 04:34:20,677 INFO supervisord started with pid 1
+2025-08-21 04:34:21,679 INFO spawned: 'rqworker-0' with pid 7
+2025-08-21 04:34:21,682 INFO spawned: 'rqworker-default-0' with pid 8
+2025-08-21 04:34:22,683 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-21 04:34:22,683 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-21 04:38:00,242 WARN received SIGTERM indicating exit request
+2025-08-21 04:38:00,242 INFO waiting for rqworker-0, rqworker-default-0 to die
+2025-08-21 04:38:01,583 INFO stopped: rqworker-default-0 (exit status 0)
+2025-08-21 04:38:02,872 INFO stopped: rqworker-0 (exit status 0)
+2026-01-05 04:55:31,237 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-01-05 04:55:31,711 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-01-05 04:55:31,722 INFO supervisord started with pid 1
+2026-01-05 04:55:32,726 INFO spawned: 'rqworker-0' with pid 7
+2026-01-05 04:55:32,729 INFO spawned: 'rqworker-default-0' with pid 8
+2026-01-05 04:55:33,731 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-01-05 04:55:33,731 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-19 03:59:51,981 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-03-19 03:59:52,569 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-03-19 03:59:52,569 INFO supervisord started with pid 1
+2026-03-19 03:59:53,573 INFO spawned: 'rqworker-0' with pid 7
+2026-03-19 03:59:53,575 INFO spawned: 'rqworker-default-0' with pid 8
+2026-03-19 03:59:54,577 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-19 03:59:54,577 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-19 04:19:29,872 WARN received SIGTERM indicating exit request
+2026-03-19 04:19:29,873 INFO waiting for rqworker-0, rqworker-default-0 to die
+2026-03-19 04:19:30,621 INFO stopped: rqworker-default-0 (exit status 0)
+2026-03-19 04:19:31,127 INFO stopped: rqworker-0 (exit status 0)
+2026-03-19 04:22:56,140 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-03-19 04:22:56,150 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-03-19 04:22:56,150 INFO supervisord started with pid 1
+2026-03-19 04:22:57,153 INFO spawned: 'rqworker-0' with pid 7
+2026-03-19 04:22:57,155 INFO spawned: 'rqworker-default-0' with pid 8
+2026-03-19 04:22:58,156 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-19 04:22:58,156 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-19 06:28:30,846 WARN received SIGTERM indicating exit request
+2026-03-19 06:28:30,856 INFO waiting for rqworker-0, rqworker-default-0 to die
+2026-03-19 06:28:32,551 INFO stopped: rqworker-default-0 (exit status 0)
+2026-03-19 06:28:34,052 INFO stopped: rqworker-0 (exit status 0)
+2026-03-19 06:29:32,745 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-03-19 06:29:32,955 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-03-19 06:29:32,956 INFO supervisord started with pid 1
+2026-03-19 06:29:33,959 INFO spawned: 'rqworker-0' with pid 7
+2026-03-19 06:29:33,961 INFO spawned: 'rqworker-default-0' with pid 8
+2026-03-19 06:29:34,963 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-19 06:29:34,963 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-19 06:32:49,385 WARN received SIGTERM indicating exit request
+2026-03-19 06:32:49,386 INFO waiting for rqworker-0, rqworker-default-0 to die
+2026-03-19 06:32:49,717 INFO stopped: rqworker-default-0 (exit status 0)
+2026-03-19 06:32:51,114 INFO stopped: rqworker-0 (exit status 0)
+2026-03-19 06:33:33,522 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-03-19 06:33:33,532 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-03-19 06:33:33,533 INFO supervisord started with pid 1
+2026-03-19 06:33:34,536 INFO spawned: 'rqworker-0' with pid 7
+2026-03-19 06:33:34,538 INFO spawned: 'rqworker-default-0' with pid 8
+2026-03-19 06:33:35,539 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-19 06:33:35,539 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-19 06:34:47,866 WARN received SIGTERM indicating exit request
+2026-03-19 06:34:47,866 INFO waiting for rqworker-0, rqworker-default-0 to die
+2026-03-19 06:34:49,150 INFO stopped: rqworker-default-0 (exit status 0)
+2026-03-19 06:34:50,506 INFO stopped: rqworker-0 (exit status 0)
+2026-03-19 07:24:51,269 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-03-19 07:24:51,279 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-03-19 07:24:51,279 INFO supervisord started with pid 1
+2026-03-19 07:24:52,282 INFO spawned: 'rqworker-0' with pid 7
+2026-03-19 07:24:52,285 INFO spawned: 'rqworker-default-0' with pid 8
+2026-03-19 07:24:53,287 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-19 07:24:53,287 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-19 07:53:16,902 WARN received SIGTERM indicating exit request
+2026-03-19 07:53:16,913 INFO waiting for rqworker-0, rqworker-default-0 to die
+2026-03-19 07:53:18,360 INFO stopped: rqworker-default-0 (exit status 0)
+2026-03-19 07:53:19,729 INFO stopped: rqworker-0 (exit status 0)
+2026-03-19 08:08:19,531 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-03-19 08:08:19,542 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-03-19 08:08:19,542 INFO supervisord started with pid 1
+2026-03-19 08:08:20,546 INFO spawned: 'rqworker-0' with pid 7
+2026-03-19 08:08:20,548 INFO spawned: 'rqworker-default-0' with pid 8
+2026-03-19 08:08:21,550 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-19 08:08:21,550 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-19 08:08:23,692 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-03-19 08:08:23,706 INFO spawned: 'rqworker-0' with pid 47
+2026-03-19 08:08:23,706 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-03-19 08:08:24,708 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-19 08:08:24,710 INFO spawned: 'rqworker-default-0' with pid 48
+2026-03-19 08:08:25,789 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-19 08:08:25,789 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-03-19 08:08:26,113 INFO spawned: 'rqworker-0' with pid 87
+2026-03-19 08:08:26,976 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-03-19 08:08:27,450 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-19 08:08:27,453 INFO spawned: 'rqworker-default-0' with pid 107
+2026-03-19 08:08:28,242 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-03-19 08:08:28,823 INFO spawned: 'rqworker-0' with pid 127
+2026-03-19 08:08:28,824 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-19 08:08:29,677 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-03-19 08:08:30,270 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-19 08:08:30,272 INFO spawned: 'rqworker-default-0' with pid 147
+2026-03-19 08:08:31,167 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-03-19 08:08:31,660 INFO spawned: 'rqworker-0' with pid 167
+2026-03-19 08:08:31,661 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-19 08:08:32,536 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-03-19 08:08:33,053 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-19 08:08:33,055 INFO spawned: 'rqworker-default-0' with pid 187
+2026-03-19 08:08:33,929 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-03-19 08:08:34,438 INFO spawned: 'rqworker-0' with pid 207
+2026-03-19 08:08:34,439 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-19 08:08:35,244 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-03-19 08:08:35,800 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-19 08:08:35,803 INFO spawned: 'rqworker-default-0' with pid 227
+2026-03-19 08:08:36,611 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-03-19 08:08:37,101 INFO spawned: 'rqworker-0' with pid 247
+2026-03-19 08:08:37,102 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-19 08:08:37,974 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-03-19 08:08:38,587 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-19 08:08:38,590 INFO spawned: 'rqworker-default-0' with pid 267
+2026-03-19 08:08:39,457 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-03-19 08:08:39,991 INFO spawned: 'rqworker-0' with pid 287
+2026-03-19 08:08:39,992 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-19 08:08:40,839 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-03-19 08:08:41,309 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-19 08:08:41,311 INFO spawned: 'rqworker-default-0' with pid 307
+2026-03-19 08:08:41,312 WARN received SIGTERM indicating exit request
+2026-03-19 08:08:41,312 INFO waiting for rqworker-0, rqworker-default-0 to die
+2026-03-19 08:08:42,051 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-03-19 08:08:43,584 WARN stopped: rqworker-default-0 (exit status 1)
+2026-03-20 01:53:52,580 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-03-20 01:53:52,590 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-03-20 01:53:52,590 INFO supervisord started with pid 1
+2026-03-20 01:53:53,593 INFO spawned: 'rqworker-0' with pid 7
+2026-03-20 01:53:53,596 INFO spawned: 'rqworker-default-0' with pid 8
+2026-03-20 01:53:54,598 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-20 01:53:54,598 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-20 01:53:56,316 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-03-20 01:53:56,316 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-03-20 01:53:56,318 INFO spawned: 'rqworker-0' with pid 47
+2026-03-20 01:53:56,321 INFO spawned: 'rqworker-default-0' with pid 48
+2026-03-20 01:53:57,323 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-20 01:53:57,323 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-20 01:53:58,757 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-03-20 01:53:58,784 INFO spawned: 'rqworker-default-0' with pid 87
+2026-03-20 01:53:58,785 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-03-20 01:53:59,788 INFO spawned: 'rqworker-0' with pid 88
+2026-03-20 01:53:59,789 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-20 01:54:00,907 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-20 01:54:00,907 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-03-20 01:54:01,192 INFO spawned: 'rqworker-default-0' with pid 127
+2026-03-20 01:54:02,019 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-03-20 01:54:02,482 INFO spawned: 'rqworker-0' with pid 147
+2026-03-20 01:54:02,483 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-20 01:54:03,311 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-03-20 01:54:03,856 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-20 01:54:03,858 INFO spawned: 'rqworker-default-0' with pid 167
+2026-03-20 01:54:04,789 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-03-20 01:54:05,269 INFO spawned: 'rqworker-0' with pid 187
+2026-03-20 01:54:05,269 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-20 01:54:06,091 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-03-20 01:54:06,575 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-20 01:54:06,578 INFO spawned: 'rqworker-default-0' with pid 207
+2026-03-20 01:54:07,514 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-03-20 01:54:07,946 INFO spawned: 'rqworker-0' with pid 227
+2026-03-20 01:54:07,947 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-20 01:54:08,865 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-03-20 01:54:09,300 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-20 01:54:09,302 INFO spawned: 'rqworker-default-0' with pid 247
+2026-03-20 01:54:10,206 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-03-20 02:02:49,770 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-03-20 02:02:49,781 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-03-20 02:02:49,781 INFO supervisord started with pid 1
+2026-03-20 02:02:50,784 INFO spawned: 'rqworker-0' with pid 7
+2026-03-20 02:02:50,787 INFO spawned: 'rqworker-default-0' with pid 8
+2026-03-20 02:02:51,788 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-20 02:02:51,788 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-20 03:39:30,622 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-03-20 03:39:30,967 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-03-20 03:39:30,967 INFO supervisord started with pid 1
+2026-03-20 03:39:31,971 INFO spawned: 'rqworker-0' with pid 7
+2026-03-20 03:39:31,973 INFO spawned: 'rqworker-default-0' with pid 8
+2026-03-20 03:39:32,975 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-20 03:39:32,975 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-20 05:51:33,321 WARN received SIGTERM indicating exit request
+2026-03-20 05:51:33,322 INFO waiting for rqworker-0, rqworker-default-0 to die
+2026-03-20 05:51:34,079 INFO stopped: rqworker-default-0 (exit status 0)
+2026-03-20 05:51:35,476 INFO stopped: rqworker-0 (exit status 0)
+2026-03-20 05:52:47,580 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-03-20 05:52:47,589 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-03-20 05:52:47,590 INFO supervisord started with pid 1
+2026-03-20 05:52:48,594 INFO spawned: 'rqworker-0' with pid 7
+2026-03-20 05:52:48,596 INFO spawned: 'rqworker-default-0' with pid 8
+2026-03-20 05:52:49,600 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-20 05:52:49,600 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-20 06:08:29,474 WARN received SIGTERM indicating exit request
+2026-03-20 06:08:29,474 INFO waiting for rqworker-0, rqworker-default-0 to die
+2026-03-20 06:08:29,856 INFO stopped: rqworker-default-0 (exit status 0)
+2026-03-20 06:08:31,340 INFO stopped: rqworker-0 (exit status 0)
+2026-03-20 06:09:59,775 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-03-20 06:09:59,785 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-03-20 06:09:59,786 INFO supervisord started with pid 1
+2026-03-20 06:10:00,789 INFO spawned: 'rqworker-0' with pid 7
+2026-03-20 06:10:00,791 INFO spawned: 'rqworker-default-0' with pid 8
+2026-03-20 06:10:01,793 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-20 06:10:01,793 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-23 01:27:40,252 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-03-23 01:27:40,452 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-03-23 01:27:40,452 INFO supervisord started with pid 1
+2026-03-23 01:27:41,455 INFO spawned: 'rqworker-0' with pid 7
+2026-03-23 01:27:41,458 INFO spawned: 'rqworker-default-0' with pid 8
+2026-03-23 01:27:42,460 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-23 01:27:42,460 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-23 01:35:20,330 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-03-23 01:35:20,339 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-03-23 01:35:20,339 INFO supervisord started with pid 1
+2026-03-23 01:35:21,342 INFO spawned: 'rqworker-0' with pid 8
+2026-03-23 01:35:21,345 INFO spawned: 'rqworker-default-0' with pid 9
+2026-03-23 01:35:22,347 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-23 01:35:22,347 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-23 08:45:02,344 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-03-23 08:45:02,655 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-03-23 08:45:02,656 INFO supervisord started with pid 1
+2026-03-23 08:45:03,659 INFO spawned: 'rqworker-0' with pid 7
+2026-03-23 08:45:03,662 INFO spawned: 'rqworker-default-0' with pid 8
+2026-03-23 08:45:04,664 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-23 08:45:04,664 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-23 10:36:10,618 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-03-23 10:36:10,928 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-03-23 10:36:10,928 INFO supervisord started with pid 1
+2026-03-23 10:36:11,932 INFO spawned: 'rqworker-0' with pid 7
+2026-03-23 10:36:11,935 INFO spawned: 'rqworker-default-0' with pid 8
+2026-03-23 10:36:12,937 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-23 10:36:12,937 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 03:19:50,707 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-03-24 03:19:50,719 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-03-24 03:19:50,719 INFO supervisord started with pid 1
+2026-03-24 03:19:51,722 INFO spawned: 'rqworker-0' with pid 7
+2026-03-24 03:19:51,725 INFO spawned: 'rqworker-default-0' with pid 8
+2026-03-24 03:19:52,727 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 03:19:52,727 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 03:41:14,044 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-03-24 03:41:14,054 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-03-24 03:41:14,054 INFO supervisord started with pid 1
+2026-03-24 03:41:15,057 INFO spawned: 'rqworker-0' with pid 7
+2026-03-24 03:41:15,059 INFO spawned: 'rqworker-default-0' with pid 8
+2026-03-24 03:41:16,061 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 03:41:16,061 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 05:43:07,242 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-03-24 05:43:07,512 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-03-24 05:43:07,513 INFO supervisord started with pid 1
+2026-03-24 05:43:08,516 INFO spawned: 'rqworker-0' with pid 7
+2026-03-24 05:43:08,518 INFO spawned: 'rqworker-default-0' with pid 8
+2026-03-24 05:43:09,519 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 05:43:09,519 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 05:52:41,853 WARN received SIGTERM indicating exit request
+2026-03-24 05:52:41,854 INFO waiting for rqworker-0, rqworker-default-0 to die
+2026-03-24 05:52:42,265 INFO stopped: rqworker-default-0 (exit status 0)
+2026-03-24 05:52:43,776 INFO stopped: rqworker-0 (exit status 0)
+2026-03-24 05:53:36,083 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-03-24 05:53:36,093 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-03-24 05:53:36,094 INFO supervisord started with pid 1
+2026-03-24 05:53:37,097 INFO spawned: 'rqworker-0' with pid 7
+2026-03-24 05:53:37,099 INFO spawned: 'rqworker-default-0' with pid 8
+2026-03-24 05:53:38,101 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 05:53:38,101 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:22:26,415 WARN received SIGTERM indicating exit request
+2026-03-24 08:22:26,426 INFO waiting for rqworker-0, rqworker-default-0 to die
+2026-03-24 08:22:26,976 INFO stopped: rqworker-default-0 (exit status 0)
+2026-03-24 08:22:28,526 INFO stopped: rqworker-0 (exit status 0)
+2026-03-24 08:22:54,625 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-03-24 08:22:54,636 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-03-24 08:22:54,636 INFO supervisord started with pid 1
+2026-03-24 08:22:55,639 INFO spawned: 'rqworker-0' with pid 7
+2026-03-24 08:22:55,641 INFO spawned: 'rqworker-default-0' with pid 8
+2026-03-24 08:22:56,642 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:22:56,642 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:23:09,579 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-03-24 08:23:09,683 INFO spawned: 'rqworker-0' with pid 47
+2026-03-24 08:23:09,684 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-03-24 08:23:10,685 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:23:10,687 INFO spawned: 'rqworker-default-0' with pid 48
+2026-03-24 08:23:11,733 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:23:12,778 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-03-24 08:23:12,787 INFO spawned: 'rqworker-0' with pid 87
+2026-03-24 08:23:13,045 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-03-24 08:23:14,047 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:23:14,049 INFO spawned: 'rqworker-default-0' with pid 107
+2026-03-24 08:23:15,055 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:23:15,055 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-03-24 08:23:15,368 INFO spawned: 'rqworker-0' with pid 127
+2026-03-24 08:23:16,407 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:23:16,407 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-03-24 08:23:16,863 INFO spawned: 'rqworker-default-0' with pid 147
+2026-03-24 08:23:18,407 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:23:18,408 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-03-24 08:23:19,042 INFO spawned: 'rqworker-0' with pid 167
+2026-03-24 08:23:19,339 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-03-24 08:23:20,340 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:23:20,342 INFO spawned: 'rqworker-default-0' with pid 187
+2026-03-24 08:23:21,393 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:23:21,393 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-03-24 08:23:21,668 INFO spawned: 'rqworker-0' with pid 207
+2026-03-24 08:23:22,678 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:23:22,678 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-03-24 08:23:23,105 INFO spawned: 'rqworker-default-0' with pid 227
+2026-03-24 08:23:23,979 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-03-24 08:23:24,451 INFO spawned: 'rqworker-0' with pid 247
+2026-03-24 08:23:24,451 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:23:25,445 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-03-24 08:23:25,780 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:23:25,782 INFO spawned: 'rqworker-default-0' with pid 267
+2026-03-24 08:23:26,575 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-03-24 08:23:27,274 INFO spawned: 'rqworker-0' with pid 287
+2026-03-24 08:23:27,275 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:23:28,176 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-03-24 08:23:28,616 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:23:28,619 INFO spawned: 'rqworker-default-0' with pid 307
+2026-03-24 08:23:29,676 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:23:29,676 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-03-24 08:23:30,117 INFO spawned: 'rqworker-0' with pid 327
+2026-03-24 08:23:31,042 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-03-24 08:23:31,448 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:23:31,451 INFO spawned: 'rqworker-default-0' with pid 347
+2026-03-24 08:23:32,501 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:23:32,501 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-03-24 08:23:32,891 INFO spawned: 'rqworker-0' with pid 367
+2026-03-24 08:23:34,318 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:23:34,318 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-03-24 08:23:34,894 INFO spawned: 'rqworker-default-0' with pid 387
+2026-03-24 08:23:35,302 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-03-24 08:23:36,255 INFO spawned: 'rqworker-0' with pid 407
+2026-03-24 08:23:36,255 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:23:37,053 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-03-24 08:23:37,714 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:23:37,717 INFO spawned: 'rqworker-default-0' with pid 427
+2026-03-24 08:23:38,627 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-03-24 08:23:39,088 INFO spawned: 'rqworker-0' with pid 447
+2026-03-24 08:23:39,088 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:23:39,976 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-03-24 08:23:40,574 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:23:40,576 INFO spawned: 'rqworker-default-0' with pid 467
+2026-03-24 08:23:41,618 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:23:41,619 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-03-24 08:23:41,977 INFO spawned: 'rqworker-0' with pid 487
+2026-03-24 08:23:42,810 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-03-24 08:23:43,393 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:23:43,396 INFO spawned: 'rqworker-default-0' with pid 507
+2026-03-24 08:23:44,361 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-03-24 08:23:44,856 INFO spawned: 'rqworker-0' with pid 527
+2026-03-24 08:23:44,856 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:23:45,905 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:23:45,906 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-03-24 08:23:46,268 INFO spawned: 'rqworker-default-0' with pid 547
+2026-03-24 08:23:47,142 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-03-24 08:23:47,639 INFO spawned: 'rqworker-0' with pid 567
+2026-03-24 08:23:47,640 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:23:48,520 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-03-24 08:23:49,007 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:23:49,009 INFO spawned: 'rqworker-default-0' with pid 587
+2026-03-24 08:23:49,880 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-03-24 08:23:50,397 INFO spawned: 'rqworker-0' with pid 607
+2026-03-24 08:23:50,398 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:23:51,252 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-03-24 08:23:51,878 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:23:51,880 INFO spawned: 'rqworker-default-0' with pid 627
+2026-03-24 08:23:52,968 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:23:52,968 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-03-24 08:23:53,381 INFO spawned: 'rqworker-0' with pid 647
+2026-03-24 08:23:54,401 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:23:54,401 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-03-24 08:23:54,719 INFO spawned: 'rqworker-default-0' with pid 667
+2026-03-24 08:23:55,529 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-03-24 08:23:56,226 INFO spawned: 'rqworker-0' with pid 687
+2026-03-24 08:23:56,226 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:23:57,286 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:23:57,286 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-03-24 08:23:57,607 INFO spawned: 'rqworker-default-0' with pid 707
+2026-03-24 08:23:58,492 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-03-24 08:23:58,987 INFO spawned: 'rqworker-0' with pid 727
+2026-03-24 08:23:58,987 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:24:00,009 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:24:00,010 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-03-24 08:24:00,612 INFO spawned: 'rqworker-default-0' with pid 747
+2026-03-24 08:24:01,599 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-03-24 08:24:01,907 INFO spawned: 'rqworker-0' with pid 767
+2026-03-24 08:24:01,908 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:24:02,789 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-03-24 08:24:03,288 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:24:03,290 INFO spawned: 'rqworker-default-0' with pid 787
+2026-03-24 08:24:04,104 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-03-24 08:24:04,731 INFO spawned: 'rqworker-0' with pid 807
+2026-03-24 08:24:04,732 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:24:05,615 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-03-24 08:24:06,079 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:24:06,081 INFO spawned: 'rqworker-default-0' with pid 827
+2026-03-24 08:24:07,520 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:24:07,521 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-03-24 08:24:08,126 INFO spawned: 'rqworker-0' with pid 847
+2026-03-24 08:24:09,453 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:24:09,453 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-03-24 08:24:09,502 INFO spawned: 'rqworker-default-0' with pid 867
+2026-03-24 08:24:10,408 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-03-24 08:24:10,926 INFO spawned: 'rqworker-0' with pid 887
+2026-03-24 08:24:10,927 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:24:11,823 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-03-24 08:24:12,344 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:24:12,347 INFO spawned: 'rqworker-default-0' with pid 907
+2026-03-24 08:24:13,367 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:24:13,367 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-03-24 08:24:13,814 INFO spawned: 'rqworker-0' with pid 927
+2026-03-24 08:24:14,830 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:24:14,831 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-03-24 08:24:15,153 INFO spawned: 'rqworker-default-0' with pid 947
+2026-03-24 08:24:16,561 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:24:16,562 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-03-24 08:24:17,187 INFO spawned: 'rqworker-0' with pid 967
+2026-03-24 08:24:17,520 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-03-24 08:24:18,522 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:24:18,524 INFO spawned: 'rqworker-default-0' with pid 987
+2026-03-24 08:24:19,666 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:24:19,667 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-03-24 08:24:19,838 INFO spawned: 'rqworker-0' with pid 1007
+2026-03-24 08:24:20,634 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-03-24 08:24:21,282 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:24:21,284 INFO spawned: 'rqworker-default-0' with pid 1027
+2026-03-24 08:24:22,294 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:24:22,294 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-03-24 08:24:22,610 INFO spawned: 'rqworker-0' with pid 1047
+2026-03-24 08:24:23,444 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-03-24 08:24:23,999 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:24:24,002 INFO spawned: 'rqworker-default-0' with pid 1067
+2026-03-24 08:24:25,007 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:24:25,007 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-03-24 08:24:25,343 INFO spawned: 'rqworker-0' with pid 1087
+2026-03-24 08:24:26,135 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-03-24 08:24:26,737 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:24:26,739 INFO spawned: 'rqworker-default-0' with pid 1107
+2026-03-24 08:24:27,747 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:24:27,747 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-03-24 08:24:28,077 INFO spawned: 'rqworker-0' with pid 1127
+2026-03-24 08:24:29,515 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:24:29,515 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-03-24 08:24:30,152 INFO spawned: 'rqworker-default-0' with pid 1147
+2026-03-24 08:24:30,537 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-03-24 08:24:31,450 INFO spawned: 'rqworker-0' with pid 1167
+2026-03-24 08:24:31,451 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:24:32,235 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-03-24 08:24:32,859 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:24:32,861 INFO spawned: 'rqworker-default-0' with pid 1187
+2026-03-24 08:24:33,750 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-03-24 08:24:34,223 INFO spawned: 'rqworker-0' with pid 1207
+2026-03-24 08:24:34,224 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:24:35,254 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:24:35,254 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-03-24 08:24:35,703 INFO spawned: 'rqworker-default-0' with pid 1227
+2026-03-24 08:24:36,621 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-03-24 08:24:37,047 INFO spawned: 'rqworker-0' with pid 1247
+2026-03-24 08:24:37,048 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:24:37,907 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-03-24 08:24:38,423 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:24:38,427 INFO spawned: 'rqworker-default-0' with pid 1267
+2026-03-24 08:24:39,373 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-03-24 08:24:39,809 INFO spawned: 'rqworker-0' with pid 1287
+2026-03-24 08:24:39,810 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:24:40,794 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-03-24 08:24:41,212 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:24:41,214 INFO spawned: 'rqworker-default-0' with pid 1307
+2026-03-24 08:24:42,227 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:24:42,227 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-03-24 08:24:42,704 INFO spawned: 'rqworker-0' with pid 1327
+2026-03-24 08:24:43,758 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:24:43,758 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-03-24 08:24:44,083 INFO spawned: 'rqworker-default-0' with pid 1347
+2026-03-24 08:24:44,985 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-03-24 08:24:45,574 INFO spawned: 'rqworker-0' with pid 1367
+2026-03-24 08:24:45,574 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:24:46,484 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-03-24 08:24:46,884 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:24:46,887 INFO spawned: 'rqworker-default-0' with pid 1387
+2026-03-24 08:24:47,918 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:24:47,918 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-03-24 08:24:48,461 INFO spawned: 'rqworker-0' with pid 1407
+2026-03-24 08:24:49,600 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:24:49,601 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-03-24 08:24:49,998 INFO spawned: 'rqworker-default-0' with pid 1427
+2026-03-24 08:24:51,089 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:24:51,089 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-03-24 08:24:51,498 INFO spawned: 'rqworker-0' with pid 1447
+2026-03-24 08:24:52,592 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:24:52,592 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-03-24 08:24:52,593 WARN received SIGTERM indicating exit request
+2026-03-24 08:24:52,593 INFO waiting for rqworker-0 to die
+2026-03-24 08:24:53,031 WARN stopped: rqworker-0 (terminated by SIGTERM)
+2026-03-24 08:37:13,190 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-03-24 08:37:13,198 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-03-24 08:37:13,199 INFO supervisord started with pid 1
+2026-03-24 08:37:14,202 INFO spawned: 'rqworker-0' with pid 7
+2026-03-24 08:37:14,204 INFO spawned: 'rqworker-default-0' with pid 8
+2026-03-24 08:37:15,205 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:37:15,205 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:38:42,790 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-03-24 08:38:42,792 INFO spawned: 'rqworker-0' with pid 54
+2026-03-24 08:38:43,794 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:38:46,066 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-03-24 08:38:47,070 INFO spawned: 'rqworker-0' with pid 74
+2026-03-24 08:38:48,071 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:38:49,391 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-03-24 08:38:50,394 INFO spawned: 'rqworker-0' with pid 94
+2026-03-24 08:38:51,396 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:38:52,637 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-03-24 08:38:53,640 INFO spawned: 'rqworker-0' with pid 114
+2026-03-24 08:38:54,641 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:38:56,064 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-03-24 08:38:57,067 INFO spawned: 'rqworker-0' with pid 134
+2026-03-24 08:38:58,069 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:38:59,504 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-03-24 08:39:00,507 INFO spawned: 'rqworker-0' with pid 154
+2026-03-24 08:39:01,509 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:39:03,820 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-03-24 08:39:04,824 INFO spawned: 'rqworker-0' with pid 174
+2026-03-24 08:39:05,825 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:39:07,137 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-03-24 08:39:08,141 INFO spawned: 'rqworker-0' with pid 194
+2026-03-24 08:39:09,143 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:39:10,821 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-03-24 08:39:11,825 INFO spawned: 'rqworker-0' with pid 214
+2026-03-24 08:39:12,826 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:39:14,085 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-03-24 08:39:15,088 INFO spawned: 'rqworker-0' with pid 234
+2026-03-24 08:39:16,090 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 08:39:16,090 INFO reaped unknown pid 53 (exit status 1)
+2026-03-24 08:39:17,547 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-03-24 09:40:50,445 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-03-24 09:40:50,454 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-03-24 09:40:50,455 INFO supervisord started with pid 1
+2026-03-24 09:40:51,458 INFO spawned: 'rqworker-0' with pid 7
+2026-03-24 09:40:51,461 INFO spawned: 'rqworker-default-0' with pid 8
+2026-03-24 09:40:52,463 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 09:40:52,463 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-24 10:56:52,230 WARN received SIGTERM indicating exit request
+2026-03-24 10:56:52,230 INFO waiting for rqworker-0, rqworker-default-0 to die
+2026-03-24 10:56:53,574 INFO stopped: rqworker-default-0 (exit status 0)
+2026-03-24 10:56:55,055 INFO stopped: rqworker-0 (exit status 0)
+2026-03-26 02:12:31,043 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-03-26 02:12:31,052 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-03-26 02:12:31,053 INFO supervisord started with pid 1
+2026-03-26 02:12:32,055 INFO spawned: 'rqworker-0' with pid 7
+2026-03-26 02:12:32,057 INFO spawned: 'rqworker-default-0' with pid 8
+2026-03-26 02:12:33,062 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-26 02:12:33,062 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-26 08:31:15,445 WARN received SIGTERM indicating exit request
+2026-03-26 08:31:15,446 INFO waiting for rqworker-0, rqworker-default-0 to die
+2026-03-26 08:31:17,010 INFO stopped: rqworker-default-0 (exit status 0)
+2026-03-26 08:31:18,400 INFO stopped: rqworker-0 (exit status 0)
+2026-03-27 05:29:18,756 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-03-27 05:29:18,782 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-03-27 05:29:18,783 INFO supervisord started with pid 1
+2026-03-27 05:29:19,785 INFO spawned: 'rqworker-0' with pid 7
+2026-03-27 05:29:19,787 INFO spawned: 'rqworker-default-0' with pid 8
+2026-03-27 05:29:20,789 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-27 05:29:20,789 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-30 06:38:30,219 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-03-30 06:38:30,541 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-03-30 06:38:30,542 INFO supervisord started with pid 1
+2026-03-30 06:38:31,545 INFO spawned: 'rqworker-0' with pid 7
+2026-03-30 06:38:31,547 INFO spawned: 'rqworker-default-0' with pid 8
+2026-03-30 06:38:32,549 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-30 06:38:32,549 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-31 04:09:07,115 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-03-31 04:09:07,124 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-03-31 04:09:07,125 INFO supervisord started with pid 1
+2026-03-31 04:09:08,127 INFO spawned: 'rqworker-0' with pid 7
+2026-03-31 04:09:08,134 INFO spawned: 'rqworker-default-0' with pid 8
+2026-03-31 04:09:09,135 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-31 04:09:09,135 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-31 06:13:58,247 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-03-31 06:13:58,257 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-03-31 06:13:58,257 INFO supervisord started with pid 1
+2026-03-31 06:13:59,260 INFO spawned: 'rqworker-0' with pid 7
+2026-03-31 06:13:59,263 INFO spawned: 'rqworker-default-0' with pid 8
+2026-03-31 06:14:00,264 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-31 06:14:00,265 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-31 08:27:17,536 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-03-31 08:27:17,546 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-03-31 08:27:17,547 INFO supervisord started with pid 1
+2026-03-31 08:27:18,550 INFO spawned: 'rqworker-0' with pid 7
+2026-03-31 08:27:18,552 INFO spawned: 'rqworker-default-0' with pid 8
+2026-03-31 08:27:19,554 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-31 08:27:19,554 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-31 08:27:59,483 WARN received SIGTERM indicating exit request
+2026-03-31 08:27:59,484 INFO waiting for rqworker-0, rqworker-default-0 to die
+2026-03-31 08:28:00,792 INFO stopped: rqworker-default-0 (exit status 0)
+2026-03-31 08:28:02,283 INFO stopped: rqworker-0 (exit status 0)
+2026-03-31 08:28:39,592 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-03-31 08:28:39,601 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-03-31 08:28:39,602 INFO supervisord started with pid 1
+2026-03-31 08:28:40,605 INFO spawned: 'rqworker-0' with pid 7
+2026-03-31 08:28:40,607 INFO spawned: 'rqworker-default-0' with pid 8
+2026-03-31 08:28:41,609 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-03-31 08:28:41,609 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-01 01:49:26,103 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-04-01 01:49:26,112 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-04-01 01:49:26,113 INFO supervisord started with pid 1
+2026-04-01 01:49:27,116 INFO spawned: 'rqworker-0' with pid 7
+2026-04-01 01:49:27,118 INFO spawned: 'rqworker-default-0' with pid 8
+2026-04-01 01:49:28,119 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-01 01:49:28,119 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-01 02:44:19,495 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-04-01 02:44:19,504 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-04-01 02:44:19,505 INFO supervisord started with pid 1
+2026-04-01 02:44:20,508 INFO spawned: 'rqworker-0' with pid 7
+2026-04-01 02:44:20,510 INFO spawned: 'rqworker-default-0' with pid 8
+2026-04-01 02:44:21,512 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-01 02:44:21,512 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-06 07:06:43,388 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-04-06 07:06:43,399 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-04-06 07:06:43,399 INFO supervisord started with pid 1
+2026-04-06 07:06:44,402 INFO spawned: 'rqworker-0' with pid 7
+2026-04-06 07:06:44,404 INFO spawned: 'rqworker-default-0' with pid 8
+2026-04-06 07:06:45,406 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-06 07:06:45,406 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-07 07:21:40,191 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-04-07 07:21:40,216 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-04-07 07:21:40,216 INFO supervisord started with pid 1
+2026-04-07 07:21:41,220 INFO spawned: 'rqworker-0' with pid 7
+2026-04-07 07:21:41,222 INFO spawned: 'rqworker-default-0' with pid 8
+2026-04-07 07:21:42,223 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-07 07:21:42,223 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-08 03:57:15,377 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-04-08 03:57:15,386 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-04-08 03:57:15,387 INFO supervisord started with pid 1
+2026-04-08 03:57:16,390 INFO spawned: 'rqworker-0' with pid 7
+2026-04-08 03:57:16,392 INFO spawned: 'rqworker-default-0' with pid 8
+2026-04-08 03:57:17,393 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-08 03:57:17,394 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-08 03:57:44,103 WARN received SIGTERM indicating exit request
+2026-04-08 03:57:44,103 INFO waiting for rqworker-0, rqworker-default-0 to die
+2026-04-08 03:57:45,347 INFO stopped: rqworker-default-0 (exit status 0)
+2026-04-08 03:57:46,832 INFO stopped: rqworker-0 (exit status 0)
+2026-04-08 04:16:07,361 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-04-08 04:16:07,371 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-04-08 04:16:07,371 INFO supervisord started with pid 1
+2026-04-08 04:16:08,374 INFO spawned: 'rqworker-0' with pid 7
+2026-04-08 04:16:08,376 INFO spawned: 'rqworker-default-0' with pid 8
+2026-04-08 04:16:09,378 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-08 04:16:09,378 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-08 09:15:20,660 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-04-08 09:15:20,668 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-04-08 09:15:20,669 INFO supervisord started with pid 1
+2026-04-08 09:15:21,671 INFO spawned: 'rqworker-0' with pid 7
+2026-04-08 09:15:21,673 INFO spawned: 'rqworker-default-0' with pid 8
+2026-04-08 09:15:22,675 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-08 09:15:22,675 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:11:46,041 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-04-09 03:11:46,051 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-04-09 03:11:46,051 INFO supervisord started with pid 1
+2026-04-09 03:11:47,054 INFO spawned: 'rqworker-0' with pid 7
+2026-04-09 03:11:47,056 INFO spawned: 'rqworker-default-0' with pid 8
+2026-04-09 03:11:48,058 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:11:48,058 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:11:48,976 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-04-09 03:11:48,976 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-09 03:11:49,980 INFO spawned: 'rqworker-0' with pid 47
+2026-04-09 03:11:49,982 INFO spawned: 'rqworker-default-0' with pid 48
+2026-04-09 03:11:50,984 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:11:50,984 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:11:51,588 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-09 03:11:51,724 INFO spawned: 'rqworker-default-0' with pid 87
+2026-04-09 03:11:51,725 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-04-09 03:11:52,728 INFO spawned: 'rqworker-0' with pid 88
+2026-04-09 03:11:52,728 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:11:53,320 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-09 03:11:54,181 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:11:54,183 INFO spawned: 'rqworker-default-0' with pid 127
+2026-04-09 03:11:54,403 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-04-09 03:11:55,408 INFO spawned: 'rqworker-0' with pid 147
+2026-04-09 03:11:55,413 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:11:55,870 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-09 03:11:56,871 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:11:56,873 INFO spawned: 'rqworker-default-0' with pid 167
+2026-04-09 03:11:57,120 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-04-09 03:11:58,126 INFO spawned: 'rqworker-0' with pid 187
+2026-04-09 03:11:58,127 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:11:58,426 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-09 03:11:59,428 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:11:59,430 INFO spawned: 'rqworker-default-0' with pid 207
+2026-04-09 03:11:59,598 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-04-09 03:12:00,602 INFO spawned: 'rqworker-0' with pid 227
+2026-04-09 03:12:00,602 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:12:00,947 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-09 03:12:01,948 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:12:01,950 INFO spawned: 'rqworker-default-0' with pid 247
+2026-04-09 03:12:02,134 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-04-09 03:12:03,140 INFO spawned: 'rqworker-0' with pid 267
+2026-04-09 03:12:03,140 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:12:03,488 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-09 03:12:04,490 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:12:04,492 INFO spawned: 'rqworker-default-0' with pid 287
+2026-04-09 03:12:04,675 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-04-09 03:12:05,682 INFO spawned: 'rqworker-0' with pid 307
+2026-04-09 03:12:05,683 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:12:05,987 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-09 03:12:06,988 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:12:06,990 INFO spawned: 'rqworker-default-0' with pid 327
+2026-04-09 03:12:07,222 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-04-09 03:12:08,225 INFO spawned: 'rqworker-0' with pid 347
+2026-04-09 03:12:08,226 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:12:08,533 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-09 03:12:09,535 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:12:09,537 INFO spawned: 'rqworker-default-0' with pid 367
+2026-04-09 03:12:09,735 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-04-09 03:12:10,739 INFO spawned: 'rqworker-0' with pid 387
+2026-04-09 03:12:10,739 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:12:10,989 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-09 03:12:11,990 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:12:11,992 INFO spawned: 'rqworker-default-0' with pid 407
+2026-04-09 03:12:12,300 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-04-09 03:12:13,304 INFO spawned: 'rqworker-0' with pid 427
+2026-04-09 03:12:13,304 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:12:13,486 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-09 03:12:14,487 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:12:14,489 INFO spawned: 'rqworker-default-0' with pid 447
+2026-04-09 03:12:14,755 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-04-09 03:12:15,758 INFO spawned: 'rqworker-0' with pid 467
+2026-04-09 03:12:15,759 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:12:15,977 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-09 03:12:16,979 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:12:16,981 INFO spawned: 'rqworker-default-0' with pid 487
+2026-04-09 03:12:17,254 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-04-09 03:12:18,258 INFO spawned: 'rqworker-0' with pid 507
+2026-04-09 03:12:18,258 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:12:18,434 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-09 03:12:19,435 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:12:19,442 INFO spawned: 'rqworker-default-0' with pid 527
+2026-04-09 03:12:19,759 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-04-09 03:12:20,762 INFO spawned: 'rqworker-0' with pid 547
+2026-04-09 03:12:20,763 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:12:20,926 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-09 03:12:21,927 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:12:21,929 INFO spawned: 'rqworker-default-0' with pid 567
+2026-04-09 03:12:22,241 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-04-09 03:12:23,244 INFO spawned: 'rqworker-0' with pid 587
+2026-04-09 03:12:23,245 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:12:23,401 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-09 03:12:24,405 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:12:24,406 INFO spawned: 'rqworker-default-0' with pid 607
+2026-04-09 03:12:24,729 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-04-09 03:12:25,733 INFO spawned: 'rqworker-0' with pid 627
+2026-04-09 03:12:25,733 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:12:25,897 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-09 03:12:26,899 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:12:26,900 INFO spawned: 'rqworker-default-0' with pid 647
+2026-04-09 03:12:27,204 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-04-09 03:12:28,207 INFO spawned: 'rqworker-0' with pid 667
+2026-04-09 03:12:28,208 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:12:28,470 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-09 03:12:29,471 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:12:29,473 INFO spawned: 'rqworker-default-0' with pid 687
+2026-04-09 03:12:29,678 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-04-09 03:12:30,682 INFO spawned: 'rqworker-0' with pid 707
+2026-04-09 03:12:30,682 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:12:31,971 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:12:31,971 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-09 03:12:32,021 INFO spawned: 'rqworker-default-0' with pid 727
+2026-04-09 03:12:32,152 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-04-09 03:12:33,156 INFO spawned: 'rqworker-0' with pid 747
+2026-04-09 03:12:33,157 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:12:33,522 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-09 03:12:34,519 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:12:34,521 INFO spawned: 'rqworker-default-0' with pid 767
+2026-04-09 03:12:34,656 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-04-09 03:12:35,659 INFO spawned: 'rqworker-0' with pid 787
+2026-04-09 03:12:35,660 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:12:36,000 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-09 03:12:37,002 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:12:37,004 INFO spawned: 'rqworker-default-0' with pid 807
+2026-04-09 03:12:37,170 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-04-09 03:12:38,177 INFO spawned: 'rqworker-0' with pid 827
+2026-04-09 03:12:38,177 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:12:39,493 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:12:39,493 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-09 03:12:39,537 INFO spawned: 'rqworker-default-0' with pid 847
+2026-04-09 03:12:39,675 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-04-09 03:12:40,683 INFO spawned: 'rqworker-0' with pid 867
+2026-04-09 03:12:40,683 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:12:41,020 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-09 03:12:42,021 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:12:42,024 INFO spawned: 'rqworker-default-0' with pid 887
+2026-04-09 03:12:42,203 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-04-09 03:12:43,208 INFO spawned: 'rqworker-0' with pid 907
+2026-04-09 03:12:43,209 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:12:43,520 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-09 03:12:44,522 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:12:44,523 INFO spawned: 'rqworker-default-0' with pid 927
+2026-04-09 03:12:44,705 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-04-09 03:12:45,709 INFO spawned: 'rqworker-0' with pid 947
+2026-04-09 03:12:45,709 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:12:46,007 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-09 03:12:47,009 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:12:47,011 INFO spawned: 'rqworker-default-0' with pid 967
+2026-04-09 03:12:47,182 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-04-09 03:12:48,189 INFO spawned: 'rqworker-0' with pid 987
+2026-04-09 03:12:48,189 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:12:48,485 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-09 03:12:49,486 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:12:49,489 INFO spawned: 'rqworker-default-0' with pid 1007
+2026-04-09 03:12:49,640 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-04-09 03:12:50,645 INFO spawned: 'rqworker-0' with pid 1027
+2026-04-09 03:12:50,646 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:12:50,986 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-09 03:12:51,987 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:12:51,989 INFO spawned: 'rqworker-default-0' with pid 1047
+2026-04-09 03:12:52,147 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-04-09 03:12:53,154 INFO spawned: 'rqworker-0' with pid 1067
+2026-04-09 03:12:53,155 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:12:53,478 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-09 03:12:54,480 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:12:54,482 INFO spawned: 'rqworker-default-0' with pid 1087
+2026-04-09 03:12:54,647 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-04-09 03:12:55,650 INFO spawned: 'rqworker-0' with pid 1107
+2026-04-09 03:12:55,651 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:12:55,987 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-09 03:12:56,988 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:12:56,991 INFO spawned: 'rqworker-default-0' with pid 1127
+2026-04-09 03:12:57,226 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-04-09 03:12:58,230 INFO spawned: 'rqworker-0' with pid 1147
+2026-04-09 03:12:58,230 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:12:58,473 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-09 03:12:59,474 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:12:59,476 INFO spawned: 'rqworker-default-0' with pid 1167
+2026-04-09 03:12:59,717 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-04-09 03:13:00,724 INFO spawned: 'rqworker-0' with pid 1187
+2026-04-09 03:13:00,724 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:13:01,111 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-09 03:13:02,112 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:13:02,114 INFO spawned: 'rqworker-default-0' with pid 1207
+2026-04-09 03:13:02,413 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-04-09 03:13:03,417 INFO spawned: 'rqworker-0' with pid 1227
+2026-04-09 03:13:03,417 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:13:03,679 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-09 03:13:04,681 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:13:04,683 INFO spawned: 'rqworker-default-0' with pid 1247
+2026-04-09 03:13:04,962 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-04-09 03:13:05,965 INFO spawned: 'rqworker-0' with pid 1267
+2026-04-09 03:13:05,966 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:13:06,231 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-09 03:13:07,235 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:13:07,237 INFO spawned: 'rqworker-default-0' with pid 1287
+2026-04-09 03:13:07,613 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-04-09 03:13:08,616 INFO spawned: 'rqworker-0' with pid 1307
+2026-04-09 03:13:08,617 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:13:08,844 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-09 03:13:09,847 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:13:09,849 INFO spawned: 'rqworker-default-0' with pid 1327
+2026-04-09 03:13:10,179 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-04-09 03:13:11,182 INFO spawned: 'rqworker-0' with pid 1347
+2026-04-09 03:13:11,183 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:13:11,414 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-09 03:13:12,418 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:13:12,419 INFO spawned: 'rqworker-default-0' with pid 1367
+2026-04-09 03:13:12,853 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-04-09 03:13:13,856 INFO spawned: 'rqworker-0' with pid 1387
+2026-04-09 03:13:13,857 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:13:14,075 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-09 03:13:15,078 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:13:15,080 INFO spawned: 'rqworker-default-0' with pid 1407
+2026-04-09 03:13:15,397 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-04-09 03:13:16,401 INFO spawned: 'rqworker-0' with pid 1427
+2026-04-09 03:13:16,402 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:13:16,645 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-09 03:13:17,648 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:13:17,650 INFO spawned: 'rqworker-default-0' with pid 1447
+2026-04-09 03:13:17,968 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-04-09 03:13:18,971 INFO spawned: 'rqworker-0' with pid 1467
+2026-04-09 03:13:18,972 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:13:19,204 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-09 03:13:20,206 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:13:20,208 INFO spawned: 'rqworker-default-0' with pid 1487
+2026-04-09 03:13:20,456 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-04-09 03:13:21,460 INFO spawned: 'rqworker-0' with pid 1507
+2026-04-09 03:13:21,461 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:13:21,700 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-09 03:13:22,702 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:13:22,704 INFO spawned: 'rqworker-default-0' with pid 1527
+2026-04-09 03:13:22,963 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-04-09 03:13:23,967 INFO spawned: 'rqworker-0' with pid 1547
+2026-04-09 03:13:23,967 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:13:24,250 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-09 03:13:25,252 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:13:25,254 INFO spawned: 'rqworker-default-0' with pid 1567
+2026-04-09 03:13:25,492 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-04-09 03:13:26,495 INFO spawned: 'rqworker-0' with pid 1587
+2026-04-09 03:13:26,496 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:13:26,767 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-09 03:13:27,768 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:13:27,770 INFO spawned: 'rqworker-default-0' with pid 1607
+2026-04-09 03:13:28,029 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-04-09 03:13:29,034 INFO spawned: 'rqworker-0' with pid 1627
+2026-04-09 03:13:29,035 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:13:29,407 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-09 03:13:30,409 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:13:30,411 INFO spawned: 'rqworker-default-0' with pid 1647
+2026-04-09 03:13:30,566 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-04-09 03:13:31,572 INFO spawned: 'rqworker-0' with pid 1667
+2026-04-09 03:13:31,572 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:13:31,941 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-09 03:13:32,943 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:13:32,945 INFO spawned: 'rqworker-default-0' with pid 1687
+2026-04-09 03:13:33,101 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-04-09 03:13:34,107 INFO spawned: 'rqworker-0' with pid 1707
+2026-04-09 03:13:34,108 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:13:34,525 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-09 03:13:35,526 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:13:35,528 INFO spawned: 'rqworker-default-0' with pid 1727
+2026-04-09 03:13:35,733 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-04-09 03:13:36,737 INFO spawned: 'rqworker-0' with pid 1747
+2026-04-09 03:13:36,738 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:13:37,046 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-09 03:13:38,047 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:13:38,050 INFO spawned: 'rqworker-default-0' with pid 1767
+2026-04-09 03:13:39,266 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:13:39,267 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-04-09 03:13:39,392 INFO spawned: 'rqworker-0' with pid 1787
+2026-04-09 03:13:39,537 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-09 03:13:40,540 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:13:40,542 INFO spawned: 'rqworker-default-0' with pid 1807
+2026-04-09 03:13:40,946 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-04-09 03:13:41,950 INFO spawned: 'rqworker-0' with pid 1827
+2026-04-09 03:13:41,950 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:13:42,100 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-09 03:13:43,106 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:13:43,108 INFO spawned: 'rqworker-default-0' with pid 1847
+2026-04-09 03:13:43,450 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-04-09 03:13:44,453 INFO spawned: 'rqworker-0' with pid 1867
+2026-04-09 03:13:44,453 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:13:45,648 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:13:45,648 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-09 03:13:45,829 INFO spawned: 'rqworker-default-0' with pid 1887
+2026-04-09 03:13:46,014 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-04-09 03:13:47,018 INFO spawned: 'rqworker-0' with pid 1888
+2026-04-09 03:13:47,018 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:13:47,440 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-09 03:13:48,397 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:13:48,399 INFO spawned: 'rqworker-default-0' with pid 1927
+2026-04-09 03:13:48,561 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-04-09 03:13:49,565 INFO spawned: 'rqworker-0' with pid 1947
+2026-04-09 03:13:49,566 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:13:49,965 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-09 03:13:50,951 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:13:50,953 INFO spawned: 'rqworker-default-0' with pid 1967
+2026-04-09 03:13:51,103 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-04-09 03:13:52,111 INFO spawned: 'rqworker-0' with pid 1987
+2026-04-09 03:13:52,112 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:13:52,494 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-09 03:13:53,495 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:13:53,501 INFO spawned: 'rqworker-default-0' with pid 2007
+2026-04-09 03:13:53,817 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-04-09 03:13:54,821 INFO spawned: 'rqworker-0' with pid 2027
+2026-04-09 03:13:54,821 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:13:55,041 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-09 03:13:56,046 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:13:56,048 INFO spawned: 'rqworker-default-0' with pid 2047
+2026-04-09 03:13:56,366 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-04-09 03:13:57,369 INFO spawned: 'rqworker-0' with pid 2067
+2026-04-09 03:13:57,370 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:13:57,566 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-09 03:13:58,567 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:13:58,569 INFO spawned: 'rqworker-default-0' with pid 2087
+2026-04-09 03:13:58,934 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-04-09 03:13:59,938 INFO spawned: 'rqworker-0' with pid 2107
+2026-04-09 03:13:59,938 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:14:01,070 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:16:37,327 WARN received SIGTERM indicating exit request
+2026-04-09 03:16:37,328 INFO waiting for rqworker-0, rqworker-default-0 to die
+2026-04-09 03:16:37,824 INFO stopped: rqworker-default-0 (exit status 0)
+2026-04-09 03:16:39,337 INFO stopped: rqworker-0 (exit status 0)
+2026-04-09 03:17:25,808 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-04-09 03:17:25,819 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-04-09 03:17:25,819 INFO supervisord started with pid 1
+2026-04-09 03:17:26,823 INFO spawned: 'rqworker-0' with pid 7
+2026-04-09 03:17:26,825 INFO spawned: 'rqworker-default-0' with pid 8
+2026-04-09 03:17:27,827 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 03:17:27,827 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 11:35:37,549 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-04-09 11:35:37,559 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-04-09 11:35:37,559 INFO supervisord started with pid 1
+2026-04-09 11:35:38,562 INFO spawned: 'rqworker-0' with pid 7
+2026-04-09 11:35:38,564 INFO spawned: 'rqworker-default-0' with pid 8
+2026-04-09 11:35:39,565 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 11:35:39,565 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 11:35:41,272 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-09 11:35:41,273 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-04-09 11:35:42,276 INFO spawned: 'rqworker-0' with pid 47
+2026-04-09 11:35:42,278 INFO spawned: 'rqworker-default-0' with pid 48
+2026-04-09 11:35:43,283 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 11:35:43,283 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 11:35:44,866 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-09 11:35:44,882 INFO spawned: 'rqworker-default-0' with pid 87
+2026-04-09 11:35:44,882 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-04-09 11:35:45,886 INFO spawned: 'rqworker-0' with pid 88
+2026-04-09 11:35:45,886 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 11:35:47,091 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 11:35:47,091 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-09 11:35:47,425 INFO spawned: 'rqworker-default-0' with pid 127
+2026-04-09 11:35:48,108 WARN received SIGTERM indicating exit request
+2026-04-09 11:35:48,109 INFO waiting for rqworker-0, rqworker-default-0 to die
+2026-04-09 11:35:48,112 WARN stopped: rqworker-default-0 (terminated by SIGTERM)
+2026-04-09 11:35:49,133 WARN stopped: rqworker-0 (terminated by SIGTERM)
+2026-04-09 11:36:23,346 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-04-09 11:36:23,356 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-04-09 11:36:23,356 INFO supervisord started with pid 1
+2026-04-09 11:36:24,358 INFO spawned: 'rqworker-0' with pid 7
+2026-04-09 11:36:24,360 INFO spawned: 'rqworker-default-0' with pid 8
+2026-04-09 11:36:25,364 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 11:36:25,364 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-10 02:00:48,384 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-04-10 02:00:48,393 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-04-10 02:00:48,394 INFO supervisord started with pid 1
+2026-04-10 02:00:49,396 INFO spawned: 'rqworker-0' with pid 7
+2026-04-10 02:00:49,398 INFO spawned: 'rqworker-default-0' with pid 8
+2026-04-10 02:00:50,401 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-10 02:00:50,401 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-13 01:55:13,459 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-04-13 01:55:13,468 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-04-13 01:55:13,468 INFO supervisord started with pid 1
+2026-04-13 01:55:14,470 INFO spawned: 'rqworker-0' with pid 7
+2026-04-13 01:55:14,472 INFO spawned: 'rqworker-default-0' with pid 8
+2026-04-13 01:55:15,474 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-13 01:55:15,474 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-13 06:58:05,304 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-04-13 06:58:05,312 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-04-13 06:58:05,312 INFO supervisord started with pid 1
+2026-04-13 06:58:06,315 INFO spawned: 'rqworker-0' with pid 7
+2026-04-13 06:58:06,318 INFO spawned: 'rqworker-default-0' with pid 8
+2026-04-13 06:58:07,320 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-13 06:58:07,320 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-13 06:58:24,087 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-04-13 06:58:24,096 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-04-13 06:58:24,096 INFO supervisord started with pid 1
+2026-04-13 06:58:25,099 INFO spawned: 'rqworker-0' with pid 7
+2026-04-13 06:58:25,102 INFO spawned: 'rqworker-default-0' with pid 8
+2026-04-13 06:58:26,103 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-13 06:58:26,103 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-13 06:58:27,627 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-04-13 06:58:27,628 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-13 06:58:28,630 INFO spawned: 'rqworker-0' with pid 47
+2026-04-13 06:58:28,633 INFO spawned: 'rqworker-default-0' with pid 48
+2026-04-13 06:58:29,635 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-13 06:58:29,635 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-13 06:58:30,884 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-13 06:58:31,104 INFO spawned: 'rqworker-default-0' with pid 87
+2026-04-13 06:58:31,104 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-04-13 06:58:32,108 INFO spawned: 'rqworker-0' with pid 88
+2026-04-13 06:58:32,108 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-13 06:58:33,425 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-13 06:58:33,426 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-13 06:58:33,426 WARN received SIGTERM indicating exit request
+2026-04-13 06:58:33,426 INFO waiting for rqworker-0 to die
+2026-04-13 06:58:34,648 WARN stopped: rqworker-0 (terminated by SIGTERM)
+2026-04-13 06:59:12,832 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-04-13 06:59:12,842 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-04-13 06:59:12,842 INFO supervisord started with pid 1
+2026-04-13 06:59:13,845 INFO spawned: 'rqworker-0' with pid 7
+2026-04-13 06:59:13,847 INFO spawned: 'rqworker-default-0' with pid 8
+2026-04-13 06:59:14,849 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-13 06:59:14,849 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-14 01:49:01,065 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-04-14 01:49:01,074 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-04-14 01:49:01,074 INFO supervisord started with pid 1
+2026-04-14 01:49:02,077 INFO spawned: 'rqworker-0' with pid 7
+2026-04-14 01:49:02,079 INFO spawned: 'rqworker-default-0' with pid 8
+2026-04-14 01:49:03,081 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-14 01:49:03,081 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-14 06:46:58,797 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-04-14 06:46:59,070 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-04-14 06:46:59,070 INFO supervisord started with pid 1
+2026-04-14 06:47:00,073 INFO spawned: 'rqworker-0' with pid 7
+2026-04-14 06:47:00,075 INFO spawned: 'rqworker-default-0' with pid 8
+2026-04-14 06:47:01,076 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-14 06:47:01,076 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-15 01:49:05,956 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-04-15 01:49:05,972 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-04-15 01:49:05,972 INFO supervisord started with pid 1
+2026-04-15 01:49:06,975 INFO spawned: 'rqworker-0' with pid 7
+2026-04-15 01:49:06,977 INFO spawned: 'rqworker-default-0' with pid 8
+2026-04-15 01:49:07,978 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-15 01:49:07,978 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-16 04:10:25,081 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-04-16 04:10:25,369 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-04-16 04:10:25,369 INFO supervisord started with pid 1
+2026-04-16 04:10:26,373 INFO spawned: 'rqworker-0' with pid 7
+2026-04-16 04:10:26,375 INFO spawned: 'rqworker-default-0' with pid 8
+2026-04-16 04:10:27,377 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-16 04:10:27,377 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-21 07:47:53,103 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-04-21 07:47:53,141 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-04-21 07:47:53,141 INFO supervisord started with pid 1
+2026-04-21 07:47:54,144 INFO spawned: 'rqworker-0' with pid 7
+2026-04-21 07:47:54,146 INFO spawned: 'rqworker-default-0' with pid 8
+2026-04-21 07:47:55,148 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-21 07:47:55,148 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-22 01:28:08,449 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-04-22 01:28:08,458 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-04-22 01:28:08,458 INFO supervisord started with pid 1
+2026-04-22 01:28:09,461 INFO spawned: 'rqworker-0' with pid 7
+2026-04-22 01:28:09,463 INFO spawned: 'rqworker-default-0' with pid 8
+2026-04-22 01:28:10,465 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-22 01:28:10,465 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-22 03:30:09,124 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-04-22 03:30:09,133 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-04-22 03:30:09,133 INFO supervisord started with pid 1
+2026-04-22 03:30:10,136 INFO spawned: 'rqworker-0' with pid 7
+2026-04-22 03:30:10,138 INFO spawned: 'rqworker-default-0' with pid 8
+2026-04-22 03:30:11,140 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-22 03:30:11,140 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-22 09:25:50,329 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-04-22 09:25:50,341 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-04-22 09:25:50,341 INFO supervisord started with pid 1
+2026-04-22 09:25:51,345 INFO spawned: 'rqworker-0' with pid 7
+2026-04-22 09:25:51,347 INFO spawned: 'rqworker-default-0' with pid 8
+2026-04-22 09:25:52,349 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-22 09:25:52,349 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-22 09:53:11,839 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-04-22 09:53:11,849 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-04-22 09:53:11,850 INFO supervisord started with pid 1
+2026-04-22 09:53:12,853 INFO spawned: 'rqworker-0' with pid 7
+2026-04-22 09:53:12,855 INFO spawned: 'rqworker-default-0' with pid 8
+2026-04-22 09:53:13,857 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-22 09:53:13,857 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-23 01:38:51,565 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-04-23 01:38:51,574 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-04-23 01:38:51,575 INFO supervisord started with pid 1
+2026-04-23 01:38:52,578 INFO spawned: 'rqworker-0' with pid 7
+2026-04-23 01:38:52,581 INFO spawned: 'rqworker-default-0' with pid 8
+2026-04-23 01:38:53,582 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-23 01:38:53,582 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-23 01:51:20,482 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-04-23 01:51:20,491 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-04-23 01:51:20,491 INFO supervisord started with pid 1
+2026-04-23 01:51:21,495 INFO spawned: 'rqworker-0' with pid 7
+2026-04-23 01:51:21,497 INFO spawned: 'rqworker-default-0' with pid 8
+2026-04-23 01:51:22,499 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-23 01:51:22,499 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-23 01:53:28,538 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-04-23 01:53:28,547 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-04-23 01:53:28,547 INFO supervisord started with pid 1
+2026-04-23 01:53:29,550 INFO spawned: 'rqworker-0' with pid 7
+2026-04-23 01:53:29,553 INFO spawned: 'rqworker-default-0' with pid 8
+2026-04-23 01:53:30,554 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-23 01:53:30,554 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-23 01:53:33,050 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-23 01:53:33,053 INFO spawned: 'rqworker-default-0' with pid 47
+2026-04-23 01:53:33,054 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-04-23 01:53:34,057 INFO spawned: 'rqworker-0' with pid 48
+2026-04-23 01:53:34,058 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-23 01:53:35,109 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-23 01:53:35,549 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-23 01:53:36,170 INFO spawned: 'rqworker-default-0' with pid 87
+2026-04-23 01:53:37,421 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-23 01:53:37,421 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-04-23 01:53:37,574 INFO spawned: 'rqworker-0' with pid 107
+2026-04-23 01:53:38,752 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-23 01:53:38,752 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-23 01:53:38,988 INFO spawned: 'rqworker-default-0' with pid 127
+2026-04-23 01:53:40,382 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-23 01:53:40,382 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-04-23 01:53:40,984 INFO spawned: 'rqworker-0' with pid 147
+2026-04-23 01:53:41,355 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-23 01:53:42,356 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-23 01:53:42,358 INFO spawned: 'rqworker-default-0' with pid 167
+2026-04-23 01:53:43,745 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-23 01:54:22,394 WARN received SIGTERM indicating exit request
+2026-04-23 01:54:22,395 INFO waiting for rqworker-0, rqworker-default-0 to die
+2026-04-23 01:54:22,669 INFO stopped: rqworker-default-0 (exit status 0)
+2026-04-23 01:54:24,105 INFO stopped: rqworker-0 (exit status 0)
+2026-04-23 01:55:01,981 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-04-23 01:55:01,990 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-04-23 01:55:01,990 INFO supervisord started with pid 1
+2026-04-23 01:55:02,993 INFO spawned: 'rqworker-0' with pid 7
+2026-04-23 01:55:02,997 INFO spawned: 'rqworker-default-0' with pid 8
+2026-04-23 01:55:03,999 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-23 01:55:03,999 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-23 08:38:06,853 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-04-23 08:38:06,953 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-04-23 08:38:06,953 INFO supervisord started with pid 1
+2026-04-23 08:38:07,956 INFO spawned: 'rqworker-0' with pid 7
+2026-04-23 08:38:07,958 INFO spawned: 'rqworker-default-0' with pid 8
+2026-04-23 08:38:08,960 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-23 08:38:08,960 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-23 08:38:10,588 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-04-23 08:38:10,605 INFO spawned: 'rqworker-0' with pid 47
+2026-04-23 08:38:10,606 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-23 08:38:11,608 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-23 08:38:11,610 INFO spawned: 'rqworker-default-0' with pid 48
+2026-04-23 08:38:11,611 WARN received SIGTERM indicating exit request
+2026-04-23 08:38:11,611 INFO waiting for rqworker-0, rqworker-default-0 to die
+2026-04-23 08:38:12,889 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-04-23 08:38:13,857 WARN stopped: rqworker-default-0 (exit status 1)
+2026-04-23 08:39:22,388 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-04-23 08:39:22,397 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-04-23 08:39:22,398 INFO supervisord started with pid 1
+2026-04-23 08:39:23,401 INFO spawned: 'rqworker-0' with pid 7
+2026-04-23 08:39:23,403 INFO spawned: 'rqworker-default-0' with pid 8
+2026-04-23 08:39:24,405 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-23 08:39:24,405 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-23 09:09:32,873 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-04-23 09:09:33,106 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-04-23 09:09:33,106 INFO supervisord started with pid 1
+2026-04-23 09:09:34,109 INFO spawned: 'rqworker-0' with pid 7
+2026-04-23 09:09:34,111 INFO spawned: 'rqworker-default-0' with pid 8
+2026-04-23 09:09:35,113 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-23 09:09:35,113 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-23 09:09:36,643 WARN exited: rqworker-default-0 (exit status 1; not expected)
+2026-04-23 09:09:36,649 INFO spawned: 'rqworker-default-0' with pid 47
+2026-04-23 09:09:36,649 WARN exited: rqworker-0 (exit status 1; not expected)
+2026-04-23 09:09:37,653 INFO spawned: 'rqworker-0' with pid 48
+2026-04-23 09:09:37,654 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-23 09:09:37,654 WARN received SIGTERM indicating exit request
+2026-04-23 09:09:37,654 INFO waiting for rqworker-0, rqworker-default-0 to die
+2026-04-23 09:09:37,658 WARN stopped: rqworker-default-0 (terminated by SIGTERM)
+2026-04-23 09:09:37,659 WARN stopped: rqworker-0 (terminated by SIGTERM)
+2026-04-23 09:10:15,209 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-04-23 09:10:15,219 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-04-23 09:10:15,219 INFO supervisord started with pid 1
+2026-04-23 09:10:16,222 INFO spawned: 'rqworker-0' with pid 7
+2026-04-23 09:10:16,224 INFO spawned: 'rqworker-default-0' with pid 8
+2026-04-23 09:10:17,226 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-23 09:10:17,226 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-24 05:59:53,970 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-04-24 05:59:54,069 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-04-24 05:59:54,069 INFO supervisord started with pid 1
+2026-04-24 05:59:55,072 INFO spawned: 'rqworker-0' with pid 7
+2026-04-24 05:59:55,074 INFO spawned: 'rqworker-default-0' with pid 8
+2026-04-24 05:59:56,076 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-24 05:59:56,076 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-27 03:52:59,190 WARN received SIGTERM indicating exit request
+2026-04-27 03:52:59,206 INFO waiting for rqworker-0, rqworker-default-0 to die
+2026-04-27 03:53:01,118 INFO stopped: rqworker-default-0 (exit status 0)
+2026-04-27 03:53:02,580 INFO stopped: rqworker-0 (exit status 0)
+2026-04-27 03:53:47,797 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-04-27 03:53:47,937 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-04-27 03:53:47,938 INFO supervisord started with pid 1
+2026-04-27 03:53:48,941 INFO spawned: 'rqworker-0' with pid 7
+2026-04-27 03:53:48,943 INFO spawned: 'rqworker-default-0' with pid 8
+2026-04-27 03:53:49,945 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-27 03:53:49,945 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-28 03:37:53,117 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-04-28 03:37:53,126 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-04-28 03:37:53,126 INFO supervisord started with pid 1
+2026-04-28 03:37:54,129 INFO spawned: 'rqworker-0' with pid 7
+2026-04-28 03:37:54,132 INFO spawned: 'rqworker-default-0' with pid 8
+2026-04-28 03:37:55,133 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-28 03:37:55,133 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-29 01:48:13,615 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-04-29 01:48:13,624 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-04-29 01:48:13,624 INFO supervisord started with pid 1
+2026-04-29 01:48:14,628 INFO spawned: 'rqworker-0' with pid 7
+2026-04-29 01:48:14,630 INFO spawned: 'rqworker-default-0' with pid 8
+2026-04-29 01:48:15,632 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-29 01:48:15,632 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-29 03:30:35,976 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-04-29 03:30:35,985 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-04-29 03:30:35,986 INFO supervisord started with pid 1
+2026-04-29 03:30:36,989 INFO spawned: 'rqworker-0' with pid 7
+2026-04-29 03:30:36,991 INFO spawned: 'rqworker-default-0' with pid 8
+2026-04-29 03:30:37,993 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-29 03:30:37,993 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-04 02:25:23,118 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-05-04 02:25:23,326 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-05-04 02:25:23,326 INFO supervisord started with pid 1
+2026-05-04 02:25:24,329 INFO spawned: 'rqworker-0' with pid 7
+2026-05-04 02:25:24,332 INFO spawned: 'rqworker-default-0' with pid 8
+2026-05-04 02:25:25,334 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-04 02:25:25,334 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-04 02:30:28,471 WARN received SIGTERM indicating exit request
+2026-05-04 02:30:28,471 INFO waiting for rqworker-0, rqworker-default-0 to die
+2026-05-04 02:30:30,055 INFO stopped: rqworker-default-0 (exit status 0)
+2026-05-04 02:30:31,393 INFO stopped: rqworker-0 (exit status 0)
+2026-05-04 02:32:16,405 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-05-04 02:32:16,415 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-05-04 02:32:16,415 INFO supervisord started with pid 1
+2026-05-04 02:32:17,417 INFO spawned: 'rqworker-0' with pid 7
+2026-05-04 02:32:17,419 INFO spawned: 'rqworker-default-0' with pid 8
+2026-05-04 02:32:18,420 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-04 02:32:18,421 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-04 02:59:26,210 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-05-04 02:59:26,219 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-05-04 02:59:26,219 INFO supervisord started with pid 1
+2026-05-04 02:59:27,222 INFO spawned: 'rqworker-0' with pid 7
+2026-05-04 02:59:27,224 INFO spawned: 'rqworker-default-0' with pid 8
+2026-05-04 02:59:28,225 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-04 02:59:28,226 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-06 02:22:17,418 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-05-06 02:22:17,563 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-05-06 02:22:17,563 INFO supervisord started with pid 1
+2026-05-06 02:22:18,567 INFO spawned: 'rqworker-0' with pid 7
+2026-05-06 02:22:18,569 INFO spawned: 'rqworker-default-0' with pid 8
+2026-05-06 02:22:19,571 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-06 02:22:19,571 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-07 03:50:53,590 WARN received SIGTERM indicating exit request
+2026-05-07 03:50:53,617 INFO waiting for rqworker-0, rqworker-default-0 to die
+2026-05-07 03:50:55,435 INFO stopped: rqworker-default-0 (exit status 0)
+2026-05-07 03:50:56,829 INFO stopped: rqworker-0 (exit status 0)
+2026-05-07 03:51:35,215 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-05-07 03:51:35,225 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-05-07 03:51:35,225 INFO supervisord started with pid 1
+2026-05-07 03:51:36,229 INFO spawned: 'rqworker-0' with pid 7
+2026-05-07 03:51:36,231 INFO spawned: 'rqworker-default-0' with pid 8
+2026-05-07 03:51:37,233 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-07 03:51:37,233 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-08 02:38:03,875 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-05-08 02:38:04,015 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-05-08 02:38:04,036 INFO supervisord started with pid 1
+2026-05-08 02:38:05,038 INFO spawned: 'rqworker-0' with pid 7
+2026-05-08 02:38:05,040 INFO spawned: 'rqworker-default-0' with pid 8
+2026-05-08 02:38:06,042 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-08 02:38:06,042 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-08 02:41:38,259 WARN received SIGTERM indicating exit request
+2026-05-08 02:41:38,259 INFO waiting for rqworker-0, rqworker-default-0 to die
+2026-05-08 02:41:38,649 INFO stopped: rqworker-default-0 (exit status 0)
+2026-05-08 02:41:40,000 INFO stopped: rqworker-0 (exit status 0)
+2026-05-08 04:25:49,599 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-05-08 04:25:49,833 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-05-08 04:25:49,833 INFO supervisord started with pid 1
+2026-05-08 04:25:50,835 INFO spawned: 'rqworker-0' with pid 7
+2026-05-08 04:25:50,837 INFO spawned: 'rqworker-default-0' with pid 8
+2026-05-08 04:25:51,838 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-08 04:25:51,839 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-08 04:57:45,363 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-05-08 04:57:45,406 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-05-08 04:57:45,419 INFO supervisord started with pid 1
+2026-05-08 04:57:46,422 INFO spawned: 'rqworker-0' with pid 7
+2026-05-08 04:57:46,424 INFO spawned: 'rqworker-default-0' with pid 8
+2026-05-08 04:57:47,426 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-08 04:57:47,426 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-08 04:59:13,636 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-05-08 04:59:13,644 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-05-08 04:59:13,716 INFO supervisord started with pid 1
+2026-05-08 04:59:14,719 INFO spawned: 'rqworker-0' with pid 7
+2026-05-08 04:59:14,722 INFO spawned: 'rqworker-default-0' with pid 8
+2026-05-08 04:59:15,723 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-08 04:59:15,724 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-08 05:15:58,819 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-05-08 05:15:59,159 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-05-08 05:15:59,159 INFO supervisord started with pid 1
+2026-05-08 05:16:00,162 INFO spawned: 'rqworker-0' with pid 7
+2026-05-08 05:16:00,164 INFO spawned: 'rqworker-default-0' with pid 8
+2026-05-08 05:16:01,166 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-08 05:16:01,166 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-08 05:18:52,755 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-05-08 05:18:52,764 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-05-08 05:18:52,764 INFO supervisord started with pid 1
+2026-05-08 05:18:53,767 INFO spawned: 'rqworker-0' with pid 7
+2026-05-08 05:18:53,769 INFO spawned: 'rqworker-default-0' with pid 8
+2026-05-08 05:18:54,771 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-08 05:18:54,771 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-22 06:44:47,539 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-05-22 06:44:47,543 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-05-22 06:44:47,543 INFO supervisord started with pid 1
+2026-05-22 06:44:48,545 INFO spawned: 'rqworker-0' with pid 7
+2026-05-22 06:44:48,546 INFO spawned: 'rqworker-default-0' with pid 8
+2026-05-22 06:44:49,765 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-22 06:44:49,765 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-22 06:46:26,899 WARN received SIGTERM indicating exit request
+2026-05-22 06:46:26,900 INFO waiting for rqworker-0, rqworker-default-0 to die
+2026-05-22 06:46:27,080 INFO stopped: rqworker-default-0 (exit status 0)
+2026-05-22 06:46:27,267 INFO stopped: rqworker-0 (exit status 0)
+2026-05-22 06:46:47,409 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-05-22 06:46:47,414 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-05-22 06:46:47,414 INFO supervisord started with pid 1
+2026-05-22 06:46:48,415 INFO spawned: 'rqworker-0' with pid 7
+2026-05-22 06:46:48,416 INFO spawned: 'rqworker-default-0' with pid 8
+2026-05-22 06:46:49,605 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-22 06:46:49,605 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-22 06:48:08,804 WARN received SIGTERM indicating exit request
+2026-05-22 06:48:08,805 INFO waiting for rqworker-0, rqworker-default-0 to die
+2026-05-22 06:48:09,069 INFO stopped: rqworker-default-0 (exit status 0)
+2026-05-22 06:48:09,383 INFO stopped: rqworker-0 (exit status 0)
+2026-05-22 06:51:44,490 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-05-22 06:51:44,495 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-05-22 06:51:44,495 INFO supervisord started with pid 1
+2026-05-22 06:51:45,499 INFO spawned: 'rqworker-0' with pid 7
+2026-05-22 06:51:45,500 INFO spawned: 'rqworker-default-0' with pid 8
+2026-05-22 06:51:46,756 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-22 06:51:46,756 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-22 06:55:14,073 WARN received SIGTERM indicating exit request
+2026-05-22 06:55:14,073 INFO waiting for rqworker-0, rqworker-default-0 to die
+2026-05-22 06:55:14,233 INFO stopped: rqworker-default-0 (exit status 0)
+2026-05-22 06:55:14,546 INFO stopped: rqworker-0 (exit status 0)
+2026-05-22 06:59:14,880 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-05-22 06:59:14,906 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-05-22 06:59:14,907 INFO supervisord started with pid 1
+2026-05-22 06:59:15,909 INFO spawned: 'rqworker-0' with pid 7
+2026-05-22 06:59:15,913 INFO spawned: 'rqworker-default-0' with pid 8
+2026-05-22 06:59:17,052 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-22 06:59:17,052 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-22 07:02:24,243 WARN received SIGTERM indicating exit request
+2026-05-22 07:02:24,244 INFO waiting for rqworker-0, rqworker-default-0 to die
+2026-05-22 07:02:24,502 INFO stopped: rqworker-default-0 (exit status 0)
+2026-05-22 07:02:24,709 INFO stopped: rqworker-0 (exit status 0)
+2026-05-25 01:45:34,288 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-05-25 01:45:34,292 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-05-25 01:45:34,292 INFO supervisord started with pid 1
+2026-05-25 01:45:35,294 INFO spawned: 'rqworker-0' with pid 7
+2026-05-25 01:45:35,295 INFO spawned: 'rqworker-default-0' with pid 8
+2026-05-25 01:45:36,401 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-25 01:45:36,401 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-25 02:18:22,589 WARN received SIGTERM indicating exit request
+2026-05-25 02:18:22,589 INFO waiting for rqworker-0, rqworker-default-0 to die
+2026-05-25 02:18:22,858 INFO stopped: rqworker-default-0 (exit status 0)
+2026-05-25 02:18:23,090 INFO stopped: rqworker-0 (exit status 0)
+2026-05-25 02:28:31,793 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-05-25 02:28:31,999 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-05-25 02:28:31,999 INFO supervisord started with pid 1
+2026-05-25 02:28:33,001 INFO spawned: 'rqworker-0' with pid 7
+2026-05-25 02:28:33,002 INFO spawned: 'rqworker-default-0' with pid 8
+2026-05-25 02:28:34,003 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-25 02:28:34,003 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-25 04:14:19,763 WARN received SIGTERM indicating exit request
+2026-05-25 04:14:19,763 INFO waiting for rqworker-0, rqworker-default-0 to die
+2026-05-25 04:14:20,107 INFO stopped: rqworker-default-0 (exit status 0)
+2026-05-25 04:14:20,418 INFO stopped: rqworker-0 (exit status 0)
+2026-05-25 04:22:24,225 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-05-25 04:22:24,225 INFO supervisord started with pid 1
+2026-05-25 04:22:25,226 INFO spawned: 'rqworker-0' with pid 7
+2026-05-25 04:22:25,229 INFO spawned: 'rqworker-default-0' with pid 8
+2026-05-25 04:22:25,230 WARN exited: rqworker-0 (exit status 127; not expected)
+2026-05-25 04:22:25,231 WARN exited: rqworker-default-0 (exit status 127; not expected)
+2026-05-25 04:22:26,233 INFO spawned: 'rqworker-0' with pid 9
+2026-05-25 04:22:26,234 INFO spawned: 'rqworker-default-0' with pid 10
+2026-05-25 04:22:26,235 WARN exited: rqworker-0 (exit status 127; not expected)
+2026-05-25 04:22:26,236 WARN exited: rqworker-default-0 (exit status 127; not expected)
+2026-05-25 04:22:28,238 INFO spawned: 'rqworker-0' with pid 11
+2026-05-25 04:22:28,242 INFO spawned: 'rqworker-default-0' with pid 12
+2026-05-25 04:22:28,244 WARN exited: rqworker-default-0 (exit status 127; not expected)
+2026-05-25 04:22:29,246 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-25 04:22:29,246 WARN exited: rqworker-0 (exit status 127; not expected)
+2026-05-25 04:22:30,248 INFO spawned: 'rqworker-0' with pid 13
+2026-05-25 04:22:30,249 WARN exited: rqworker-0 (exit status 127; not expected)
+2026-05-25 04:22:31,251 INFO spawned: 'rqworker-0' with pid 14
+2026-05-25 04:22:31,252 INFO spawned: 'rqworker-default-0' with pid 15
+2026-05-25 04:22:31,254 WARN exited: rqworker-default-0 (exit status 127; not expected)
+2026-05-25 04:22:31,254 INFO gave up: rqworker-default-0 entered FATAL state, too many start retries too quickly
+2026-05-25 04:22:31,254 WARN exited: rqworker-0 (exit status 127; not expected)
+2026-05-25 04:22:33,257 INFO spawned: 'rqworker-0' with pid 16
+2026-05-25 04:22:33,259 WARN exited: rqworker-0 (exit status 127; not expected)
+2026-05-25 04:22:36,263 INFO spawned: 'rqworker-0' with pid 17
+2026-05-25 04:22:36,265 WARN exited: rqworker-0 (exit status 127; not expected)
+2026-05-25 04:22:37,266 INFO gave up: rqworker-0 entered FATAL state, too many start retries too quickly
+2026-05-25 04:31:48,144 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-05-25 04:31:48,168 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-05-25 04:31:48,168 INFO supervisord started with pid 1
+2026-05-25 04:31:49,170 INFO spawned: 'rqworker-0' with pid 7
+2026-05-25 04:31:49,171 INFO spawned: 'rqworker-default-0' with pid 8
+2026-05-25 04:31:50,171 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-25 04:31:50,171 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-25 04:37:51,740 WARN received SIGTERM indicating exit request
+2026-05-25 04:37:51,740 INFO waiting for rqworker-0, rqworker-default-0 to die
+2026-05-25 04:37:52,025 INFO stopped: rqworker-default-0 (exit status 0)
+2026-05-25 04:37:52,245 INFO stopped: rqworker-0 (exit status 0)
+2026-05-25 04:38:10,660 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-05-25 04:38:10,664 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-05-25 04:38:10,665 INFO supervisord started with pid 1
+2026-05-25 04:38:11,666 INFO spawned: 'rqworker-0' with pid 7
+2026-05-25 04:38:11,667 INFO spawned: 'rqworker-default-0' with pid 8
+2026-05-25 04:38:12,836 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-25 04:38:12,836 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-25 04:53:21,051 WARN received SIGTERM indicating exit request
+2026-05-25 04:53:21,072 INFO waiting for rqworker-0, rqworker-default-0 to die
+2026-05-25 04:53:21,345 INFO stopped: rqworker-default-0 (exit status 0)
+2026-05-25 04:53:21,560 INFO stopped: rqworker-0 (exit status 0)
+2026-05-25 06:02:49,802 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-05-25 06:02:49,812 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-05-25 06:02:49,812 INFO supervisord started with pid 1
+2026-05-25 06:02:50,813 INFO spawned: 'rqworker-0' with pid 7
+2026-05-25 06:02:50,816 INFO spawned: 'rqworker-default-0' with pid 8
+2026-05-25 06:02:51,818 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-25 06:02:51,818 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-25 06:20:42,179 WARN received SIGTERM indicating exit request
+2026-05-25 06:20:42,195 INFO waiting for rqworker-0, rqworker-default-0 to die
+2026-05-25 06:20:42,398 INFO stopped: rqworker-default-0 (exit status 0)
+2026-05-25 06:20:42,698 INFO stopped: rqworker-0 (exit status 0)
+2026-05-25 06:21:55,805 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-05-25 06:21:55,810 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-05-25 06:21:55,810 INFO supervisord started with pid 1
+2026-05-25 06:21:56,815 INFO spawned: 'rqworker-0' with pid 7
+2026-05-25 06:21:56,816 INFO spawned: 'rqworker-default-0' with pid 8
+2026-05-25 06:21:58,035 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-25 06:21:58,035 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-25 06:25:57,842 WARN received SIGTERM indicating exit request
+2026-05-25 06:25:57,843 INFO waiting for rqworker-0, rqworker-default-0 to die
+2026-05-25 06:25:58,157 INFO stopped: rqworker-default-0 (exit status 0)
+2026-05-25 06:25:58,369 INFO stopped: rqworker-0 (exit status 0)
+2026-05-25 06:29:30,191 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-05-25 06:29:30,195 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-05-25 06:29:30,195 INFO supervisord started with pid 1
+2026-05-25 06:29:31,198 INFO spawned: 'rqworker-0' with pid 7
+2026-05-25 06:29:31,199 INFO spawned: 'rqworker-default-0' with pid 8
+2026-05-25 06:29:32,307 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-25 06:29:32,307 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-25 06:33:05,776 WARN received SIGTERM indicating exit request
+2026-05-25 06:33:05,776 INFO waiting for rqworker-0, rqworker-default-0 to die
+2026-05-25 06:33:05,980 INFO stopped: rqworker-default-0 (exit status 0)
+2026-05-25 06:33:06,193 INFO stopped: rqworker-0 (exit status 0)
+2026-05-25 06:42:10,092 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-05-25 06:42:10,259 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-05-25 06:42:10,259 INFO supervisord started with pid 1
+2026-05-25 06:42:11,260 INFO spawned: 'rqworker-0' with pid 7
+2026-05-25 06:42:11,261 INFO spawned: 'rqworker-default-0' with pid 8
+2026-05-25 06:42:12,262 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-25 06:42:12,263 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-26 01:51:42,587 WARN received SIGTERM indicating exit request
+2026-05-26 01:51:42,588 INFO waiting for rqworker-0, rqworker-default-0 to die
+2026-05-26 01:51:42,871 INFO stopped: rqworker-default-0 (exit status 0)
+2026-05-26 01:51:43,050 INFO stopped: rqworker-0 (exit status 0)
+2026-05-26 01:52:20,785 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-05-26 01:52:20,794 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-05-26 01:52:20,794 INFO supervisord started with pid 1
+2026-05-26 01:52:21,795 INFO spawned: 'rqworker-0' with pid 7
+2026-05-26 01:52:21,797 INFO spawned: 'rqworker-default-0' with pid 8
+2026-05-26 01:52:22,963 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-26 01:52:22,963 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-26 09:17:19,942 WARN received SIGTERM indicating exit request
+2026-05-26 09:17:19,973 INFO waiting for rqworker-0, rqworker-default-0 to die
+2026-05-26 09:17:20,340 INFO stopped: rqworker-default-0 (exit status 0)
+2026-05-26 09:17:20,545 INFO stopped: rqworker-0 (exit status 0)
+2026-05-26 09:18:11,747 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-05-26 09:18:11,754 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-05-26 09:18:11,755 INFO supervisord started with pid 1
+2026-05-26 09:18:12,756 INFO spawned: 'rqworker-0' with pid 7
+2026-05-26 09:18:12,757 INFO spawned: 'rqworker-default-0' with pid 8
+2026-05-26 09:18:13,758 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-26 09:18:13,758 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-26 09:40:17,216 WARN received SIGTERM indicating exit request
+2026-05-26 09:40:17,242 INFO waiting for rqworker-0, rqworker-default-0 to die
+2026-05-26 09:40:17,426 INFO stopped: rqworker-default-0 (exit status 0)
+2026-05-26 09:40:17,617 INFO stopped: rqworker-0 (exit status 0)
+2026-05-26 09:40:32,554 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-05-26 09:40:32,560 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-05-26 09:40:32,560 INFO supervisord started with pid 1
+2026-05-26 09:40:33,561 INFO spawned: 'rqworker-0' with pid 7
+2026-05-26 09:40:33,563 INFO spawned: 'rqworker-default-0' with pid 8
+2026-05-26 09:40:34,969 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-26 09:40:34,969 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-26 10:03:54,992 WARN received SIGTERM indicating exit request
+2026-05-26 10:03:55,013 INFO waiting for rqworker-0, rqworker-default-0 to die
+2026-05-28 01:43:12,277 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-05-28 01:43:12,312 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-05-28 01:43:12,313 INFO supervisord started with pid 1
+2026-05-28 01:43:13,314 INFO spawned: 'rqworker-0' with pid 7
+2026-05-28 01:43:13,315 INFO spawned: 'rqworker-default-0' with pid 8
+2026-05-28 01:43:14,316 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-28 01:43:14,316 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-28 01:45:08,388 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-05-28 01:45:08,393 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-05-28 01:45:08,393 INFO supervisord started with pid 1
+2026-05-28 01:45:09,395 INFO spawned: 'rqworker-0' with pid 7
+2026-05-28 01:45:09,397 INFO spawned: 'rqworker-default-0' with pid 8
+2026-05-28 01:45:10,398 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-28 01:45:10,398 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-28 08:36:26,520 WARN received SIGTERM indicating exit request
+2026-05-28 08:36:26,521 INFO waiting for rqworker-0, rqworker-default-0 to die
+2026-05-28 08:36:26,828 INFO stopped: rqworker-default-0 (exit status 0)
+2026-05-28 08:36:27,199 INFO stopped: rqworker-0 (exit status 0)
+2026-05-28 08:38:57,050 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-05-28 08:38:57,056 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-05-28 08:38:57,056 INFO supervisord started with pid 1
+2026-05-28 08:38:58,057 INFO spawned: 'rqworker-0' with pid 7
+2026-05-28 08:38:58,058 INFO spawned: 'rqworker-default-0' with pid 8
+2026-05-28 08:38:59,625 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-28 08:38:59,625 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-28 09:03:10,440 WARN received SIGTERM indicating exit request
+2026-05-28 09:03:10,440 INFO waiting for rqworker-0, rqworker-default-0 to die
+2026-05-28 09:03:10,636 INFO stopped: rqworker-default-0 (exit status 0)
+2026-05-28 09:03:11,953 INFO stopped: rqworker-0 (exit status 0)
+2026-05-28 09:03:31,399 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-05-28 09:03:31,404 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-05-28 09:03:31,404 INFO supervisord started with pid 1
+2026-05-28 09:03:32,406 INFO spawned: 'rqworker-0' with pid 7
+2026-05-28 09:03:32,408 INFO spawned: 'rqworker-default-0' with pid 8
+2026-05-28 09:03:33,409 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-28 09:03:33,409 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-29 02:04:18,024 WARN received SIGTERM indicating exit request
+2026-05-29 02:04:18,024 INFO waiting for rqworker-0, rqworker-default-0 to die
+2026-05-29 02:04:18,302 INFO stopped: rqworker-default-0 (exit status 0)
+2026-05-29 02:04:18,560 INFO stopped: rqworker-0 (exit status 0)
+2026-05-29 02:15:55,621 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-05-29 02:15:55,626 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-05-29 02:15:55,626 INFO supervisord started with pid 1
+2026-05-29 02:15:56,628 INFO spawned: 'rqworker-0' with pid 7
+2026-05-29 02:15:56,629 INFO spawned: 'rqworker-default-0' with pid 8
+2026-05-29 02:15:58,064 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-29 02:15:58,064 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-29 08:34:20,779 WARN received SIGTERM indicating exit request
+2026-05-29 08:34:20,779 INFO waiting for rqworker-0, rqworker-default-0 to die
+2026-05-29 08:34:20,961 INFO stopped: rqworker-default-0 (exit status 0)
+2026-05-29 08:34:21,218 INFO stopped: rqworker-0 (exit status 0)
+2026-05-29 08:34:43,581 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-05-29 08:34:43,586 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-05-29 08:34:43,586 INFO supervisord started with pid 1
+2026-05-29 08:34:44,588 INFO spawned: 'rqworker-0' with pid 7
+2026-05-29 08:34:44,589 INFO spawned: 'rqworker-default-0' with pid 8
+2026-05-29 08:34:45,588 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-29 08:34:46,130 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-29 08:36:56,284 WARN received SIGTERM indicating exit request
+2026-05-29 08:36:56,284 INFO waiting for rqworker-0, rqworker-default-0 to die
+2026-05-29 08:36:56,502 INFO stopped: rqworker-default-0 (exit status 0)
+2026-05-29 08:36:56,882 INFO stopped: rqworker-0 (exit status 0)
+2026-05-29 08:37:39,723 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-05-29 08:37:39,729 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-05-29 08:37:39,729 INFO supervisord started with pid 1
+2026-05-29 08:37:40,732 INFO spawned: 'rqworker-0' with pid 7
+2026-05-29 08:37:40,734 INFO spawned: 'rqworker-default-0' with pid 8
+2026-05-29 08:37:42,222 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-29 08:37:42,222 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-29 08:40:50,408 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-05-29 08:40:50,416 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-05-29 08:40:50,416 INFO supervisord started with pid 1
+2026-05-29 08:40:51,418 INFO spawned: 'rqworker-0' with pid 7
+2026-05-29 08:40:51,419 INFO spawned: 'rqworker-default-0' with pid 8
+2026-05-29 08:40:52,741 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-29 08:40:52,741 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-29 08:43:46,935 WARN received SIGTERM indicating exit request
+2026-05-29 08:43:46,935 INFO waiting for rqworker-0, rqworker-default-0 to die
+2026-05-29 08:43:47,160 INFO stopped: rqworker-default-0 (exit status 0)
+2026-05-29 08:44:00,078 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-05-29 08:44:00,083 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-05-29 08:44:00,084 INFO supervisord started with pid 1
+2026-05-29 08:44:01,085 INFO spawned: 'rqworker-0' with pid 7
+2026-05-29 08:44:01,086 INFO spawned: 'rqworker-default-0' with pid 8
+2026-05-29 08:44:02,426 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-05-29 08:44:02,426 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-06-02 02:47:44,452 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2026-06-02 02:47:44,457 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-06-02 02:47:44,457 INFO supervisord started with pid 1
+2026-06-02 02:47:45,458 INFO spawned: 'rqworker-0' with pid 7
+2026-06-02 02:47:45,460 INFO spawned: 'rqworker-default-0' with pid 8
+2026-06-02 02:47:46,705 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-06-02 02:47:46,705 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-06-02 02:58:51,393 WARN received SIGTERM indicating exit request
+2026-06-02 02:58:51,393 INFO waiting for rqworker-0, rqworker-default-0 to die
+2026-06-02 02:58:52,750 INFO stopped: rqworker-default-0 (exit status 0)
+2026-06-02 02:58:52,970 INFO stopped: rqworker-0 (exit status 0)
+2026-06-02 02:58:53,509 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-06-02 02:58:53,510 INFO supervisord started with pid 1
+2026-06-02 02:58:54,512 INFO spawned: 'rqworker-0' with pid 7
+2026-06-02 02:58:54,513 INFO spawned: 'rqworker-default-0' with pid 8
+2026-06-02 02:58:55,548 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-06-02 02:58:55,549 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-06-03 01:39:58,802 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-06-03 01:39:58,802 INFO supervisord started with pid 1
+2026-06-03 01:39:59,806 INFO spawned: 'rqworker-0' with pid 7
+2026-06-03 01:39:59,808 INFO spawned: 'rqworker-default-0' with pid 8
+2026-06-03 01:40:00,809 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-06-03 01:40:00,809 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-06-04 03:54:38,251 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-06-04 03:54:38,251 INFO supervisord started with pid 1
+2026-06-04 03:54:39,253 INFO spawned: 'rqworker-0' with pid 7
+2026-06-04 03:54:39,255 INFO spawned: 'rqworker-default-0' with pid 8
+2026-06-04 03:54:40,371 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-06-04 03:54:40,371 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-06-04 10:34:01,006 WARN received SIGTERM indicating exit request
+2026-06-04 10:34:01,007 INFO waiting for rqworker-0, rqworker-default-0 to die
+2026-06-04 10:34:01,435 INFO stopped: rqworker-default-0 (exit status 0)
+2026-06-05 01:52:12,221 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-06-05 01:52:12,221 INFO supervisord started with pid 1
+2026-06-05 01:52:13,222 INFO spawned: 'rqworker-0' with pid 7
+2026-06-05 01:52:13,223 INFO spawned: 'rqworker-default-0' with pid 8
+2026-06-05 01:52:14,224 INFO success: rqworker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-06-05 01:52:14,224 INFO success: rqworker-default-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)

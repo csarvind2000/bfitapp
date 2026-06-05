@@ -1,0 +1,129 @@
+diff --git a/node_modules/@niivue/niivue/build/index.d.ts b/node_modules/@niivue/niivue/build/index.d.ts
+index 6cbbdd4..cf64448 100644
+--- a/node_modules/@niivue/niivue/build/index.d.ts
++++ b/node_modules/@niivue/niivue/build/index.d.ts
+@@ -698,6 +698,7 @@ type NVConfigOptions = {
+     measureTextColor: number[];
+     measureLineColor: number[];
+     measureTextHeight: number;
++    invertScrollDirection: boolean;
+ };
+ declare const DEFAULT_OPTIONS: NVConfigOptions;
+ type SceneData = {
+diff --git a/node_modules/@niivue/niivue/build/index.js b/node_modules/@niivue/niivue/build/index.js
+index 6d15339..827cf3d 100644
+--- a/node_modules/@niivue/niivue/build/index.js
++++ b/node_modules/@niivue/niivue/build/index.js
+@@ -22468,7 +22468,8 @@ var DEFAULT_OPTIONS = {
+   // red
+   measureLineColor: [1, 0, 0, 1],
+   // red
+-  measureTextHeight: 0.03
++  measureTextHeight: 0.03,
++  invertScrollDirection: false,
+ };
+ var INITIAL_SCENE_DATA = {
+   gamma: 1,
+@@ -25596,11 +25597,12 @@ var Niivue = class {
+       return;
+     }
+     const rect = this.canvas.getBoundingClientRect();
+-    if (e.deltaY < 0) {
+-      this.sliceScroll2D(-0.01, e.clientX - rect.left, e.clientY - rect.top);
+-    } else {
+-      this.sliceScroll2D(0.01, e.clientX - rect.left, e.clientY - rect.top);
++    let scrollAmount = e.deltaY < 0 ? -0.01 : 0.01
++    if (this.opts.invertScrollDirection) {
++      scrollAmount = -scrollAmount
+     }
++
++    this.sliceScroll2D(scrollAmount, e.clientX - rect.left, e.clientY - rect.top);
+   }
+   // not included in public docs
+   // setup interactions with the canvas. Mouse clicks and touches
+diff --git a/node_modules/@niivue/niivue/dist/index.d.ts b/node_modules/@niivue/niivue/dist/index.d.ts
+index 6cbbdd4..cf64448 100644
+--- a/node_modules/@niivue/niivue/dist/index.d.ts
++++ b/node_modules/@niivue/niivue/dist/index.d.ts
+@@ -698,6 +698,7 @@ type NVConfigOptions = {
+     measureTextColor: number[];
+     measureLineColor: number[];
+     measureTextHeight: number;
++    invertScrollDirection: boolean;
+ };
+ declare const DEFAULT_OPTIONS: NVConfigOptions;
+ type SceneData = {
+diff --git a/node_modules/@niivue/niivue/dist/index.js b/node_modules/@niivue/niivue/dist/index.js
+index 589e6f8..b256c51 100644
+--- a/node_modules/@niivue/niivue/dist/index.js
++++ b/node_modules/@niivue/niivue/dist/index.js
+@@ -119426,7 +119426,8 @@ var DEFAULT_OPTIONS = {
+   // red
+   measureLineColor: [1, 0, 0, 1],
+   // red
+-  measureTextHeight: 0.03
++  measureTextHeight: 0.03,
++  invertScrollDirection: false,
+ };
+ var INITIAL_SCENE_DATA = {
+   gamma: 1,
+@@ -122551,11 +122552,12 @@ var Niivue = class {
+       return;
+     }
+     const rect = this.canvas.getBoundingClientRect();
+-    if (e.deltaY < 0) {
+-      this.sliceScroll2D(-0.01, e.clientX - rect.left, e.clientY - rect.top);
+-    } else {
+-      this.sliceScroll2D(0.01, e.clientX - rect.left, e.clientY - rect.top);
++    let scrollAmount = e.deltaY < 0 ? -0.01 : 0.01
++    if (this.opts.invertScrollDirection) {
++      scrollAmount = -scrollAmount
+     }
++
++    this.sliceScroll2D(scrollAmount, e.clientX - rect.left, e.clientY - rect.top);
+   }
+   // not included in public docs
+   // setup interactions with the canvas. Mouse clicks and touches
+diff --git a/node_modules/@niivue/niivue/src/niivue/index.ts b/node_modules/@niivue/niivue/src/niivue/index.ts
+index d6d55d7..b5744fb 100644
+--- a/node_modules/@niivue/niivue/src/niivue/index.ts
++++ b/node_modules/@niivue/niivue/src/niivue/index.ts
+@@ -1850,11 +1850,12 @@ export class Niivue {
+       return
+     }
+     const rect = this.canvas!.getBoundingClientRect()
+-    if (e.deltaY < 0) {
+-      this.sliceScroll2D(-0.01, e.clientX - rect.left, e.clientY - rect.top)
+-    } else {
+-      this.sliceScroll2D(0.01, e.clientX - rect.left, e.clientY - rect.top)
++    let scrollAmount = e.deltaY < 0 ? -0.01 : 0.01
++    if (this.opts.invertScrollDirection) {
++      scrollAmount = -scrollAmount
+     }
++
++    this.sliceScroll2D(scrollAmount, e.clientX - rect.left, e.clientY - rect.top);
+   }
+ 
+   // not included in public docs
+diff --git a/node_modules/@niivue/niivue/src/nvdocument.ts b/node_modules/@niivue/niivue/src/nvdocument.ts
+index c3cdaa4..74d3338 100644
+--- a/node_modules/@niivue/niivue/src/nvdocument.ts
++++ b/node_modules/@niivue/niivue/src/nvdocument.ts
+@@ -165,6 +165,7 @@ export type NVConfigOptions = {
+   measureTextColor: number[]
+   measureLineColor: number[]
+   measureTextHeight: number
++  invertScrollDirection: boolean
+ }
+ 
+ export const DEFAULT_OPTIONS: NVConfigOptions = {
+@@ -258,7 +259,8 @@ export const DEFAULT_OPTIONS: NVConfigOptions = {
+   measureTextJustify: 'center', // start, center, end
+   measureTextColor: [1, 0, 0, 1], // red
+   measureLineColor: [1, 0, 0, 1], // red
+-  measureTextHeight: 0.03
++  measureTextHeight: 0.03,
++  invertScrollDirection: false,
+ }
+ 
+ type SceneData = {
