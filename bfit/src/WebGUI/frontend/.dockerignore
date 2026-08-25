@@ -1,0 +1,12 @@
+# Never bake host-installed deps/build output into the image — node_modules
+# contains platform-specific native binaries (esbuild/rollup) that break the
+# build when the image is built on/for a different OS or architecture.
+node_modules
+dist
+
+# Local build/lint caches and generated TS build info
+.eslintcache
+tsconfig.tsbuildinfo
+tsconfig.node.tsbuildinfo
+
+.git

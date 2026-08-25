@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BFIT System Architecture Export</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #eef2f7;
+        --panel: #ffffff;
+        --text: #172033;
+        --muted: #64748b;
+        --primary: #2563eb;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      header {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 24px;
+        padding: 18px 28px;
+        background: rgba(255, 255, 255, 0.94);
+        border-bottom: 1px solid #d8dee8;
+        backdrop-filter: blur(10px);
+      }
+
+      h1 {
+        margin: 0;
+        font-size: 24px;
+      }
+
+      p {
+        margin: 4px 0 0;
+        color: var(--muted);
+        font-size: 14px;
+      }
+
+      .actions {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        flex-wrap: wrap;
+      }
+
+      button,
+      a.button {
+        border: 0;
+        border-radius: 8px;
+        padding: 12px 16px;
+        background: var(--primary);
+        color: white;
+        font-weight: 700;
+        font-size: 14px;
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+      a.button.secondary {
+        background: #334155;
+      }
+
+      main {
+        padding: 28px;
+      }
+
+      .stage {
+        overflow: auto;
+        padding: 24px;
+        background: var(--panel);
+        border: 1px solid #d8dee8;
+        border-radius: 12px;
+        box-shadow: 0 18px 60px rgba(15, 23, 42, 0.12);
+      }
+
+      svg {
+        display: block;
+        width: min(100%, 2600px);
+        min-width: 1280px;
+        height: auto;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1>BFIT System Architecture</h1>
+        <p>Large export-friendly diagram. Orange arrows show media returning to the frontend.</p>
+      </div>
+      <div class="actions">
+        <button id="downloadPng">Download PNG</button>
+        <a class="button secondary" href="./system-architecture-poster.svg" download>Download SVG</a>
+      </div>
+    </header>
+    <main>
+      <section class="stage">
+        <div id="svgMount"></div>
+      </section>
+    </main>
+
+    <script>
+      async function loadSvg() {
+        const response = await fetch("./system-architecture-poster.svg");
+        const svgText = await response.text();
+        document.getElementById("svgMount").innerHTML = svgText;
+      }
+
+      async function downloadPng() {
+        const svg = document.querySelector("#svgMount svg");
+        if (!svg) return;
+
+        const serializer = new XMLSerializer();
+        const svgText = serializer.serializeToString(svg);
+        const svgBlob = new Blob([svgText], { type: "image/svg+xml;charset=utf-8" });
+        const url = URL.createObjectURL(svgBlob);
+        const image = new Image();
+
+        image.onload = () => {
+          const scale = 2;
+          const canvas = document.createElement("canvas");
+          canvas.width = 2600 * scale;
+          canvas.height = 1600 * scale;
+          const ctx = canvas.getContext("2d");
+          ctx.fillStyle = "#f7f9fc";
+          ctx.fillRect(0, 0, canvas.width, canvas.height);
+          ctx.scale(scale, scale);
+          ctx.drawImage(image, 0, 0);
+          URL.revokeObjectURL(url);
+          canvas.toBlob((blob) => {
+            if (!blob) return;
+            const pngUrl = URL.createObjectURL(blob);
+            const link = document.createElement("a");
+            link.href = pngUrl;
+            link.download = "bfit-system-architecture.png";
+            document.body.appendChild(link);
+            link.click();
+            link.remove();
+            URL.revokeObjectURL(pngUrl);
+          }, "image/png");
+        };
+
+        image.src = url;
+      }
+
+      document.getElementById("downloadPng").addEventListener("click", downloadPng);
+      loadSvg();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,237 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2600" height="1600" viewBox="0 0 2600 1600" role="img" aria-labelledby="title desc">
+  <title id="title">BFIT System Architecture Poster</title>
+  <desc id="desc">Large export-friendly system architecture diagram for BFIT showing frontend, backend, AI workers, AI model, on-prem LLM model, data stores, and explicit media return to frontend.</desc>
+  <defs>
+    <style>
+      .bg { fill: #f7f9fc; }
+      .title { font-family: Arial, Helvetica, sans-serif; font-weight: 700; font-size: 58px; fill: #172033; }
+      .subtitle { font-family: Arial, Helvetica, sans-serif; font-weight: 400; font-size: 27px; fill: #5c667a; }
+      .section-title { font-family: Arial, Helvetica, sans-serif; font-weight: 700; font-size: 31px; fill: #1a2538; }
+      .node-title { font-family: Arial, Helvetica, sans-serif; font-weight: 700; font-size: 25px; fill: #111827; }
+      .node-body { font-family: Arial, Helvetica, sans-serif; font-weight: 400; font-size: 20px; fill: #273449; }
+      .edge-label { font-family: Arial, Helvetica, sans-serif; font-weight: 700; font-size: 20px; fill: #243044; }
+      .small-label { font-family: Arial, Helvetica, sans-serif; font-weight: 600; font-size: 18px; fill: #4a5568; }
+      .lane { stroke-width: 3; rx: 22; }
+      .node { stroke-width: 3; rx: 18; }
+      .data { stroke-width: 3; }
+      .arrow { fill: none; stroke: #526071; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+      .arrow-strong { fill: none; stroke: #2563eb; stroke-width: 7; stroke-linecap: round; stroke-linejoin: round; }
+      .arrow-media { fill: none; stroke: #f97316; stroke-width: 9; stroke-linecap: round; stroke-linejoin: round; }
+      .arrow-async { fill: none; stroke: #8b5cf6; stroke-width: 5; stroke-dasharray: 16 12; stroke-linecap: round; stroke-linejoin: round; }
+      .arrow-llm { fill: none; stroke: #0f766e; stroke-width: 5; stroke-dasharray: 14 10; stroke-linecap: round; stroke-linejoin: round; }
+      .callout { fill: #fff7ed; stroke: #f97316; stroke-width: 4; rx: 18; }
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="11" markerHeight="11" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#526071"/>
+    </marker>
+    <marker id="arrowBlue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="12" markerHeight="12" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#2563eb"/>
+    </marker>
+    <marker id="arrowOrange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="13" markerHeight="13" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#f97316"/>
+    </marker>
+    <marker id="arrowPurple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="11" markerHeight="11" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#8b5cf6"/>
+    </marker>
+    <marker id="arrowTeal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="11" markerHeight="11" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#0f766e"/>
+    </marker>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#162033" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="2600" height="1600"/>
+  <text class="title" x="90" y="95">BFIT System Architecture</text>
+  <text class="subtitle" x="92" y="142">Large export view with explicit media delivery from backend storage to the frontend viewer and reports.</text>
+
+  <rect class="lane" x="70" y="210" width="270" height="1090" fill="#e8f1ff" stroke="#7aa7ff"/>
+  <text class="section-title" x="105" y="265">User</text>
+
+  <rect class="lane" x="390" y="210" width="430" height="1090" fill="#e8fff1" stroke="#57c989"/>
+  <text class="section-title" x="425" y="265">Frontend</text>
+
+  <rect class="lane" x="880" y="210" width="560" height="1090" fill="#fff9e8" stroke="#f2bf45"/>
+  <text class="section-title" x="915" y="265">Django Backend</text>
+
+  <rect class="lane" x="1500" y="210" width="360" height="1090" fill="#f3e8ff" stroke="#a978ff"/>
+  <text class="section-title" x="1530" y="265">AI Worker</text>
+
+  <rect class="lane" x="1920" y="210" width="610" height="1090" fill="#eef2f7" stroke="#9aa8bd"/>
+  <text class="section-title" x="1955" y="265">Models, Queue, Storage</text>
+
+  <g filter="url(#shadow)">
+    <rect class="node" x="105" y="530" width="200" height="165" fill="#ffffff" stroke="#7aa7ff"/>
+    <text class="node-title" x="135" y="585">Clinical User</text>
+    <text class="node-body" x="135" y="625">Browser access</text>
+    <text class="node-body" x="135" y="657">Review analysis</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect class="node" x="430" y="330" width="345" height="185" fill="#ffffff" stroke="#57c989"/>
+    <text class="node-title" x="462" y="383">React Web App</text>
+    <text class="node-body" x="462" y="423">Studies, Analysis, Reports</text>
+    <text class="node-body" x="462" y="455">Toolpad + MUI shell</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect class="node" x="430" y="610" width="345" height="205" fill="#ffffff" stroke="#57c989"/>
+    <text class="node-title" x="462" y="664">Niivue Viewer</text>
+    <text class="node-body" x="462" y="705">Displays scans and masks</text>
+    <text class="node-body" x="462" y="737">Reads returned media files</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect class="node" x="430" y="900" width="345" height="185" fill="#ffffff" stroke="#57c989"/>
+    <text class="node-title" x="462" y="954">Reports UI</text>
+    <text class="node-body" x="462" y="995">Generates and downloads</text>
+    <text class="node-body" x="462" y="1027">body-analysis PDFs</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect class="node" x="930" y="310" width="440" height="170" fill="#ffffff" stroke="#f2bf45"/>
+    <text class="node-title" x="965" y="365">REST API</text>
+    <text class="node-body" x="965" y="405">/api/studies, /api/analysis, /api/reports</text>
+    <text class="node-body" x="965" y="437">Token-authenticated JSON API</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect class="node" x="930" y="560" width="440" height="185" fill="#ffffff" stroke="#f97316"/>
+    <text class="node-title" x="965" y="615">Media Delivery Endpoint</text>
+    <text class="node-body" x="965" y="655">Serves /content/* file URLs</text>
+    <text class="node-body" x="965" y="687">masks, plots, source NIfTI, PDFs</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect class="node" x="930" y="830" width="440" height="185" fill="#ffffff" stroke="#f2bf45"/>
+    <text class="node-title" x="965" y="885">Serializers</text>
+    <text class="node-body" x="965" y="925">Return artifact_url and</text>
+    <text class="node-body" x="965" y="957">segmentation_mask_url to UI</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect class="node" x="1540" y="345" width="280" height="190" fill="#ffffff" stroke="#a978ff"/>
+    <text class="node-title" x="1570" y="400">RQ Workers</text>
+    <text class="node-body" x="1570" y="440">AI inference jobs</text>
+    <text class="node-body" x="1570" y="472">mmap/default queues</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect class="node" x="1540" y="640" width="280" height="215" fill="#ffffff" stroke="#a978ff"/>
+    <text class="node-title" x="1570" y="695">Analysis Job</text>
+    <text class="node-body" x="1570" y="735">Encode DICOM</text>
+    <text class="node-body" x="1570" y="767">Call AI model</text>
+    <text class="node-body" x="1570" y="799">Persist outputs</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect class="node" x="1975" y="320" width="250" height="175" fill="#ffffff" stroke="#7c3aed"/>
+    <text class="node-title" x="2005" y="374">AI Model API</text>
+    <text class="node-body" x="2005" y="414">Segmentation service</text>
+    <text class="node-body" x="2005" y="446">GPU enabled</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect class="node" x="2265" y="320" width="220" height="175" fill="#ffffff" stroke="#0f766e"/>
+    <text class="node-title" x="2295" y="374">On-prem LLM</text>
+    <text class="node-body" x="2295" y="414">Local summary</text>
+    <text class="node-body" x="2295" y="446">generation</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <path class="data" d="M1990 610 C1990 585 2215 585 2215 610 L2215 760 C2215 785 1990 785 1990 760 Z" fill="#ffffff" stroke="#4b8fe7"/>
+    <ellipse cx="2102.5" cy="610" rx="112.5" ry="32" fill="#dcecff" stroke="#4b8fe7" stroke-width="3"/>
+    <text class="node-title" x="2033" y="682">PostgreSQL</text>
+    <text class="node-body" x="2028" y="722">metadata and results</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <path class="data" d="M2265 610 C2265 585 2485 585 2485 610 L2485 760 C2485 785 2265 785 2265 760 Z" fill="#ffffff" stroke="#8b5cf6"/>
+    <ellipse cx="2375" cy="610" rx="110" ry="32" fill="#efe4ff" stroke="#8b5cf6" stroke-width="3"/>
+    <text class="node-title" x="2324" y="682">Redis</text>
+    <text class="node-body" x="2315" y="722">RQ queues</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <path class="data" d="M1990 890 C1990 865 2215 865 2215 890 L2215 1080 C2215 1105 1990 1105 1990 1080 Z" fill="#ffffff" stroke="#f97316"/>
+    <ellipse cx="2102.5" cy="890" rx="112.5" ry="32" fill="#ffedd5" stroke="#f97316" stroke-width="3"/>
+    <text class="node-title" x="2028" y="968">Media Volume</text>
+    <text class="node-body" x="2028" y="1008">DICOM, masks, plots</text>
+    <text class="node-body" x="2028" y="1040">NIfTI and PDF files</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <path class="data" d="M2265 890 C2265 865 2485 865 2485 890 L2485 1080 C2485 1105 2265 1105 2265 1080 Z" fill="#ffffff" stroke="#38a169"/>
+    <ellipse cx="2375" cy="890" rx="110" ry="32" fill="#dcfce7" stroke="#38a169" stroke-width="3"/>
+    <text class="node-title" x="2312" y="968">PACS Data</text>
+    <text class="node-body" x="2315" y="1008">optional import</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <path class="data" d="M1990 1180 C1990 1155 2215 1155 2215 1180 L2215 1345 C2215 1370 1990 1370 1990 1345 Z" fill="#ffffff" stroke="#7c3aed"/>
+    <ellipse cx="2102.5" cy="1180" rx="112.5" ry="32" fill="#ede9fe" stroke="#7c3aed" stroke-width="3"/>
+    <text class="node-title" x="2035" y="1258">AI Model Files</text>
+    <text class="node-body" x="2030" y="1298">checkpoints and plans</text>
+  </g>
+
+  <path class="arrow-strong" d="M305 615 L430 423" marker-end="url(#arrowBlue)"/>
+  <text class="edge-label" x="305" y="480">uses app</text>
+
+  <path class="arrow-strong" d="M775 423 L930 393" marker-end="url(#arrowBlue)"/>
+  <text class="edge-label" x="790" y="378">REST /api/*</text>
+
+  <path class="arrow" d="M1370 393 L1990 680" marker-end="url(#arrow)"/>
+  <text class="edge-label" x="1480" y="450">metadata/results</text>
+
+  <path class="arrow" d="M1370 395 L2265 975" marker-end="url(#arrow)"/>
+  <text class="edge-label" x="1550" y="1038">PACS import</text>
+
+  <path class="arrow-async" d="M1370 423 C1480 420 1430 610 1540 440" marker-end="url(#arrowPurple)"/>
+  <text class="edge-label" x="1398" y="350">enqueue job</text>
+
+  <path class="arrow-async" d="M2265 680 C2000 680 1905 430 1820 440" marker-end="url(#arrowPurple)"/>
+  <text class="edge-label" x="2055" y="560">dispatch</text>
+
+  <path class="arrow" d="M1680 535 L1680 640" marker-end="url(#arrow)"/>
+  <text class="edge-label" x="1700" y="595">runs</text>
+
+  <path class="arrow" d="M1820 748 L1975 408" marker-end="url(#arrow)"/>
+  <text class="edge-label" x="1795" y="555">scan payload</text>
+
+  <path class="arrow" d="M1975 455 L1820 770" marker-end="url(#arrow)"/>
+  <text class="edge-label" x="1845" y="848">masks + metrics</text>
+
+  <path class="arrow" d="M1680 855 C1740 1010 1840 990 1990 985" marker-end="url(#arrow)"/>
+  <text class="edge-label" x="1660" y="1095">store artifacts</text>
+
+  <path class="arrow" d="M1680 855 C1740 680 1840 680 1990 680" marker-end="url(#arrow)"/>
+  <text class="edge-label" x="1660" y="625">save results</text>
+
+  <path class="arrow" d="M1975 408 C1900 380 2035 1200 2102 1180" marker-end="url(#arrow)"/>
+  <text class="edge-label" x="2132" y="1140">loads</text>
+
+  <path class="arrow-llm" d="M1370 382 C1700 170 2070 240 2265 382" marker-end="url(#arrowTeal)"/>
+  <text class="edge-label" x="1698" y="275">summary prompt</text>
+
+  <path class="arrow" d="M930 924 L775 712" marker-end="url(#arrow)"/>
+  <text class="edge-label" x="770" y="840">file URLs</text>
+
+  <path class="arrow-media" d="M1990 985 C1735 980 1580 700 1370 655" marker-end="url(#arrowOrange)"/>
+  <text class="edge-label" x="1520" y="920">read stored media</text>
+
+  <path class="arrow-media" d="M930 655 C825 655 820 710 775 710" marker-end="url(#arrowOrange)"/>
+  <text class="edge-label" x="720" y="592">GET /content/*</text>
+
+  <path class="arrow-media" d="M930 678 C800 760 805 980 775 985" marker-end="url(#arrowOrange)"/>
+  <text class="edge-label" x="785" y="1110">PDF download</text>
+
+  <g filter="url(#shadow)">
+    <rect class="callout" x="470" y="1225" width="1230" height="190"/>
+    <text class="node-title" x="510" y="1285">Highlighted media return path</text>
+    <text class="node-body" x="510" y="1330">Analysis serializers return artifact_url and segmentation_mask_url.</text>
+    <text class="node-body" x="510" y="1365">The frontend then requests /content/* from the Django media endpoint, which reads masks, plots, NIfTI files, and PDFs from the media volume.</text>
+  </g>
+
+  <text class="small-label" x="90" y="1510">Export-ready SVG: docs/system-architecture-poster.svg</text>
+  <text class="small-label" x="90" y="1540">Orange arrows show media returning from storage to the frontend.</text>
+</svg>

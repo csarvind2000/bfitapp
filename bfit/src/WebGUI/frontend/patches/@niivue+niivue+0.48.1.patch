@@ -1,0 +1,416 @@
+diff --git a/node_modules/@niivue/niivue/build/index.d.ts b/node_modules/@niivue/niivue/build/index.d.ts
+index 6cbbdd4..cf64448 100644
+--- a/node_modules/@niivue/niivue/build/index.d.ts
++++ b/node_modules/@niivue/niivue/build/index.d.ts
+@@ -698,6 +698,7 @@ type NVConfigOptions = {
+     measureTextColor: number[];
+     measureLineColor: number[];
+     measureTextHeight: number;
++    invertScrollDirection: boolean;
+ };
+ declare const DEFAULT_OPTIONS: NVConfigOptions;
+ type SceneData = {
+diff --git a/node_modules/@niivue/niivue/build/index.js b/node_modules/@niivue/niivue/build/index.js
+index 6d15339..5188d22 100644
+--- a/node_modules/@niivue/niivue/build/index.js
++++ b/node_modules/@niivue/niivue/build/index.js
+@@ -22468,7 +22468,8 @@ var DEFAULT_OPTIONS = {
+   // red
+   measureLineColor: [1, 0, 0, 1],
+   // red
+-  measureTextHeight: 0.03
++  measureTextHeight: 0.03,
++  invertScrollDirection: false,
+ };
+ var INITIAL_SCENE_DATA = {
+   gamma: 1,
+@@ -25596,11 +25597,12 @@ var Niivue = class {
+       return;
+     }
+     const rect = this.canvas.getBoundingClientRect();
+-    if (e.deltaY < 0) {
+-      this.sliceScroll2D(-0.01, e.clientX - rect.left, e.clientY - rect.top);
+-    } else {
+-      this.sliceScroll2D(0.01, e.clientX - rect.left, e.clientY - rect.top);
++    let scrollAmount = e.deltaY < 0 ? -0.01 : 0.01
++    if (this.opts.invertScrollDirection) {
++      scrollAmount = -scrollAmount
+     }
++
++    this.sliceScroll2D(scrollAmount, e.clientX - rect.left, e.clientY - rect.top);
+   }
+   // not included in public docs
+   // setup interactions with the canvas. Mouse clicks and touches
+@@ -33445,7 +33447,7 @@ var Niivue = class {
+     }
+     let linesH = corMM.slice();
+     let linesV = sagMM.slice();
+-    const thick = Math.max(1, this.opts.crosshairWidth);
++    const thick = Math.max(0.5, this.opts.crosshairWidth);
+     if (axCorSag === 1 /* CORONAL */) {
+       linesH = axiMM.slice();
+     }
+@@ -33473,7 +33475,7 @@ var Niivue = class {
+         right = swizzleVec3(right, [0, 1, 2]);
+         left = mm2screen(left);
+         right = mm2screen(right);
+-        this.drawLine([left[0], left[1], right[0], right[1]], thick);
++        this.drawDottedLine([left[0], left[1], right[0], right[1]], thick);
+       }
+     }
+     if (linesH.length > 0 && axCorSag === 1) {
+@@ -33490,7 +33492,7 @@ var Niivue = class {
+         right = swizzleVec3(right, [0, 2, 1]);
+         left = mm2screen(left);
+         right = mm2screen(right);
+-        this.drawLine([left[0], left[1], right[0], right[1]], thick);
++        this.drawDottedLine([left[0], left[1], right[0], right[1]], thick);
+       }
+     }
+     if (linesH.length > 0 && axCorSag === 2) {
+@@ -33507,7 +33509,7 @@ var Niivue = class {
+         right = swizzleVec3(right, [1, 2, 0]);
+         left = mm2screen(left);
+         right = mm2screen(right);
+-        this.drawLine([left[0], left[1], right[0], right[1]], thick);
++        this.drawDottedLine([left[0], left[1], right[0], right[1]], thick);
+       }
+     }
+     if (linesV.length > 0 && axCorSag === 0) {
+@@ -33524,7 +33526,7 @@ var Niivue = class {
+         right = swizzleVec3(right, [0, 1, 2]);
+         left = mm2screen(left);
+         right = mm2screen(right);
+-        this.drawLine([left[0], left[1], right[0], right[1]], thick);
++        this.drawDottedLine([left[0], left[1], right[0], right[1]], thick);
+       }
+     }
+     if (linesV.length > 0 && axCorSag === 1) {
+@@ -33541,7 +33543,7 @@ var Niivue = class {
+         right = swizzleVec3(right, [0, 2, 1]);
+         left = mm2screen(left);
+         right = mm2screen(right);
+-        this.drawLine([left[0], left[1], right[0], right[1]], thick);
++        this.drawDottedLine([left[0], left[1], right[0], right[1]], thick);
+       }
+     }
+     if (linesV.length > 0 && axCorSag === 2) {
+@@ -33558,7 +33560,7 @@ var Niivue = class {
+         right = swizzleVec3(right, [1, 2, 0]);
+         left = mm2screen(left);
+         right = mm2screen(right);
+-        this.drawLine([left[0], left[1], right[0], right[1]], thick);
++        this.drawDottedLine([left[0], left[1], right[0], right[1]], thick);
+       }
+     }
+   }
+@@ -33583,6 +33585,7 @@ var Niivue = class {
+       linesH = axiMM.slice();
+       linesV = corMM.slice();
+     }
++    const thick = Math.max(0.5, this.opts.crosshairWidth);
+     if (linesH.length > 0) {
+       const LTWH = tile.leftTopWidthHeight.slice();
+       let sliceDim = 2;
+@@ -33593,7 +33596,8 @@ var Niivue = class {
+       for (let i = 0; i < linesH.length; i++) {
+         mm[sliceDim] = linesH[i];
+         const frac = this.mm2frac(mm);
+-        this.drawRect([LTWH[0], LTWH[1] + LTWH[3] - frac[sliceDim] * LTWH[3], LTWH[2], 1]);
++        const y = LTWH[1] + LTWH[3] - frac[sliceDim] * LTWH[3];
++        this.drawDottedLine([LTWH[0], y, LTWH[0] + LTWH[2], y], thick);
+       }
+     }
+     if (linesV.length > 0) {
+@@ -33607,11 +33611,8 @@ var Niivue = class {
+       for (let i = 0; i < linesV.length; i++) {
+         mm[sliceDim] = linesV[i];
+         const frac = this.mm2frac(mm);
+-        if (isRadiolgical) {
+-          this.drawRect([LTWH[0] + (LTWH[2] - frac[sliceDim] * LTWH[2]), LTWH[1], 1, LTWH[3]]);
+-        } else {
+-          this.drawRect([LTWH[0] + frac[sliceDim] * LTWH[2], LTWH[1], 1, LTWH[3]]);
+-        }
++        const x = isRadiolgical ? LTWH[0] + (LTWH[2] - frac[sliceDim] * LTWH[2]) : LTWH[0] + frac[sliceDim] * LTWH[2];
++        this.drawDottedLine([x, LTWH[1], x, LTWH[1] + LTWH[3]], thick);
+       }
+     }
+   }
+diff --git a/node_modules/@niivue/niivue/dist/index.d.ts b/node_modules/@niivue/niivue/dist/index.d.ts
+index 6cbbdd4..cf64448 100644
+--- a/node_modules/@niivue/niivue/dist/index.d.ts
++++ b/node_modules/@niivue/niivue/dist/index.d.ts
+@@ -698,6 +698,7 @@ type NVConfigOptions = {
+     measureTextColor: number[];
+     measureLineColor: number[];
+     measureTextHeight: number;
++    invertScrollDirection: boolean;
+ };
+ declare const DEFAULT_OPTIONS: NVConfigOptions;
+ type SceneData = {
+diff --git a/node_modules/@niivue/niivue/dist/index.js b/node_modules/@niivue/niivue/dist/index.js
+index 589e6f8..b374711 100644
+--- a/node_modules/@niivue/niivue/dist/index.js
++++ b/node_modules/@niivue/niivue/dist/index.js
+@@ -119426,7 +119426,8 @@ var DEFAULT_OPTIONS = {
+   // red
+   measureLineColor: [1, 0, 0, 1],
+   // red
+-  measureTextHeight: 0.03
++  measureTextHeight: 0.03,
++  invertScrollDirection: false,
+ };
+ var INITIAL_SCENE_DATA = {
+   gamma: 1,
+@@ -122551,11 +122552,12 @@ var Niivue = class {
+       return;
+     }
+     const rect = this.canvas.getBoundingClientRect();
+-    if (e.deltaY < 0) {
+-      this.sliceScroll2D(-0.01, e.clientX - rect.left, e.clientY - rect.top);
+-    } else {
+-      this.sliceScroll2D(0.01, e.clientX - rect.left, e.clientY - rect.top);
++    let scrollAmount = e.deltaY < 0 ? -0.01 : 0.01
++    if (this.opts.invertScrollDirection) {
++      scrollAmount = -scrollAmount
+     }
++
++    this.sliceScroll2D(scrollAmount, e.clientX - rect.left, e.clientY - rect.top);
+   }
+   // not included in public docs
+   // setup interactions with the canvas. Mouse clicks and touches
+@@ -130400,7 +130402,7 @@ var Niivue = class {
+     }
+     let linesH = corMM.slice();
+     let linesV = sagMM.slice();
+-    const thick = Math.max(1, this.opts.crosshairWidth);
++    const thick = Math.max(0.5, this.opts.crosshairWidth);
+     if (axCorSag === 1 /* CORONAL */) {
+       linesH = axiMM.slice();
+     }
+@@ -130428,7 +130430,7 @@ var Niivue = class {
+         right = swizzleVec3(right, [0, 1, 2]);
+         left = mm2screen(left);
+         right = mm2screen(right);
+-        this.drawLine([left[0], left[1], right[0], right[1]], thick);
++        this.drawDottedLine([left[0], left[1], right[0], right[1]], thick);
+       }
+     }
+     if (linesH.length > 0 && axCorSag === 1) {
+@@ -130445,7 +130447,7 @@ var Niivue = class {
+         right = swizzleVec3(right, [0, 2, 1]);
+         left = mm2screen(left);
+         right = mm2screen(right);
+-        this.drawLine([left[0], left[1], right[0], right[1]], thick);
++        this.drawDottedLine([left[0], left[1], right[0], right[1]], thick);
+       }
+     }
+     if (linesH.length > 0 && axCorSag === 2) {
+@@ -130462,7 +130464,7 @@ var Niivue = class {
+         right = swizzleVec3(right, [1, 2, 0]);
+         left = mm2screen(left);
+         right = mm2screen(right);
+-        this.drawLine([left[0], left[1], right[0], right[1]], thick);
++        this.drawDottedLine([left[0], left[1], right[0], right[1]], thick);
+       }
+     }
+     if (linesV.length > 0 && axCorSag === 0) {
+@@ -130479,7 +130481,7 @@ var Niivue = class {
+         right = swizzleVec3(right, [0, 1, 2]);
+         left = mm2screen(left);
+         right = mm2screen(right);
+-        this.drawLine([left[0], left[1], right[0], right[1]], thick);
++        this.drawDottedLine([left[0], left[1], right[0], right[1]], thick);
+       }
+     }
+     if (linesV.length > 0 && axCorSag === 1) {
+@@ -130496,7 +130498,7 @@ var Niivue = class {
+         right = swizzleVec3(right, [0, 2, 1]);
+         left = mm2screen(left);
+         right = mm2screen(right);
+-        this.drawLine([left[0], left[1], right[0], right[1]], thick);
++        this.drawDottedLine([left[0], left[1], right[0], right[1]], thick);
+       }
+     }
+     if (linesV.length > 0 && axCorSag === 2) {
+@@ -130513,7 +130515,7 @@ var Niivue = class {
+         right = swizzleVec3(right, [1, 2, 0]);
+         left = mm2screen(left);
+         right = mm2screen(right);
+-        this.drawLine([left[0], left[1], right[0], right[1]], thick);
++        this.drawDottedLine([left[0], left[1], right[0], right[1]], thick);
+       }
+     }
+   }
+@@ -130538,6 +130540,7 @@ var Niivue = class {
+       linesH = axiMM.slice();
+       linesV = corMM.slice();
+     }
++    const thick = Math.max(0.5, this.opts.crosshairWidth);
+     if (linesH.length > 0) {
+       const LTWH = tile.leftTopWidthHeight.slice();
+       let sliceDim = 2;
+@@ -130548,7 +130551,8 @@ var Niivue = class {
+       for (let i2 = 0; i2 < linesH.length; i2++) {
+         mm[sliceDim] = linesH[i2];
+         const frac = this.mm2frac(mm);
+-        this.drawRect([LTWH[0], LTWH[1] + LTWH[3] - frac[sliceDim] * LTWH[3], LTWH[2], 1]);
++        const y = LTWH[1] + LTWH[3] - frac[sliceDim] * LTWH[3];
++        this.drawDottedLine([LTWH[0], y, LTWH[0] + LTWH[2], y], thick);
+       }
+     }
+     if (linesV.length > 0) {
+@@ -130562,11 +130566,8 @@ var Niivue = class {
+       for (let i2 = 0; i2 < linesV.length; i2++) {
+         mm[sliceDim] = linesV[i2];
+         const frac = this.mm2frac(mm);
+-        if (isRadiolgical) {
+-          this.drawRect([LTWH[0] + (LTWH[2] - frac[sliceDim] * LTWH[2]), LTWH[1], 1, LTWH[3]]);
+-        } else {
+-          this.drawRect([LTWH[0] + frac[sliceDim] * LTWH[2], LTWH[1], 1, LTWH[3]]);
+-        }
++        const x = isRadiolgical ? LTWH[0] + (LTWH[2] - frac[sliceDim] * LTWH[2]) : LTWH[0] + frac[sliceDim] * LTWH[2];
++        this.drawDottedLine([x, LTWH[1], x, LTWH[1] + LTWH[3]], thick);
+       }
+     }
+   }
+diff --git a/node_modules/@niivue/niivue/src/niivue/index.ts b/node_modules/@niivue/niivue/src/niivue/index.ts
+index d6d55d7..e29ec1c 100644
+--- a/node_modules/@niivue/niivue/src/niivue/index.ts
++++ b/node_modules/@niivue/niivue/src/niivue/index.ts
+@@ -1850,11 +1850,12 @@ export class Niivue {
+       return
+     }
+     const rect = this.canvas!.getBoundingClientRect()
+-    if (e.deltaY < 0) {
+-      this.sliceScroll2D(-0.01, e.clientX - rect.left, e.clientY - rect.top)
+-    } else {
+-      this.sliceScroll2D(0.01, e.clientX - rect.left, e.clientY - rect.top)
++    let scrollAmount = e.deltaY < 0 ? -0.01 : 0.01
++    if (this.opts.invertScrollDirection) {
++      scrollAmount = -scrollAmount
+     }
++
++    this.sliceScroll2D(scrollAmount, e.clientX - rect.left, e.clientY - rect.top);
+   }
+ 
+   // not included in public docs
+@@ -10965,7 +10966,7 @@ export class Niivue {
+     }
+     let linesH = corMM.slice()
+     let linesV = sagMM.slice()
+-    const thick = Math.max(1, this.opts.crosshairWidth)
++    const thick = Math.max(0.5, this.opts.crosshairWidth)
+     if (axCorSag === SLICE_TYPE.CORONAL) {
+       linesH = axiMM.slice()
+     }
+@@ -10998,7 +10999,7 @@ export class Niivue {
+         right = swizzleVec3(right as vec3, [0, 1, 2])
+         left = mm2screen(left as vec2)
+         right = mm2screen(right as vec2)
+-        this.drawLine([left[0], left[1], right[0], right[1]], thick)
++        this.drawDottedLine([left[0], left[1], right[0], right[1]], thick)
+       }
+     }
+     if (linesH.length > 0 && axCorSag === 1) {
+@@ -11015,7 +11016,7 @@ export class Niivue {
+         right = swizzleVec3(right as vec3, [0, 2, 1])
+         left = mm2screen(left as vec2)
+         right = mm2screen(right as vec2)
+-        this.drawLine([left[0], left[1], right[0], right[1]], thick)
++        this.drawDottedLine([left[0], left[1], right[0], right[1]], thick)
+       }
+     }
+     if (linesH.length > 0 && axCorSag === 2) {
+@@ -11032,7 +11033,7 @@ export class Niivue {
+         right = swizzleVec3(right as vec3, [1, 2, 0])
+         left = mm2screen(left as vec2)
+         right = mm2screen(right as vec2)
+-        this.drawLine([left[0], left[1], right[0], right[1]], thick)
++        this.drawDottedLine([left[0], left[1], right[0], right[1]], thick)
+       }
+     }
+     if (linesV.length > 0 && axCorSag === 0) {
+@@ -11049,7 +11050,7 @@ export class Niivue {
+         right = swizzleVec3(right as vec3, [0, 1, 2])
+         left = mm2screen(left as vec2)
+         right = mm2screen(right as vec2)
+-        this.drawLine([left[0], left[1], right[0], right[1]], thick)
++        this.drawDottedLine([left[0], left[1], right[0], right[1]], thick)
+       }
+     }
+     if (linesV.length > 0 && axCorSag === 1) {
+@@ -11066,7 +11067,7 @@ export class Niivue {
+         right = swizzleVec3(right as vec3, [0, 2, 1])
+         left = mm2screen(left as vec2)
+         right = mm2screen(right as vec2)
+-        this.drawLine([left[0], left[1], right[0], right[1]], thick)
++        this.drawDottedLine([left[0], left[1], right[0], right[1]], thick)
+       }
+     }
+     if (linesV.length > 0 && axCorSag === 2) {
+@@ -11083,7 +11084,7 @@ export class Niivue {
+         right = swizzleVec3(right as vec3, [1, 2, 0])
+         left = mm2screen(left as vec2)
+         right = mm2screen(right as vec2)
+-        this.drawLine([left[0], left[1], right[0], right[1]], thick)
++        this.drawDottedLine([left[0], left[1], right[0], right[1]], thick)
+       }
+     }
+   }
+@@ -11111,6 +11112,7 @@ export class Niivue {
+       linesH = axiMM.slice()
+       linesV = corMM.slice()
+     }
++    const thick = Math.max(0.5, this.opts.crosshairWidth)
+     if (linesH.length > 0) {
+       // draw horizontal lines
+       const LTWH = tile.leftTopWidthHeight.slice()
+@@ -11122,7 +11124,8 @@ export class Niivue {
+       for (let i = 0; i < linesH.length; i++) {
+         mm[sliceDim] = linesH[i]
+         const frac = this.mm2frac(mm)
+-        this.drawRect([LTWH[0], LTWH[1] + LTWH[3] - frac[sliceDim] * LTWH[3], LTWH[2], 1])
++        const y = LTWH[1] + LTWH[3] - frac[sliceDim] * LTWH[3]
++        this.drawDottedLine([LTWH[0], y, LTWH[0] + LTWH[2], y], thick)
+       }
+     }
+     if (linesV.length > 0) {
+@@ -11137,11 +11140,10 @@ export class Niivue {
+       for (let i = 0; i < linesV.length; i++) {
+         mm[sliceDim] = linesV[i]
+         const frac = this.mm2frac(mm)
+-        if (isRadiolgical) {
+-          this.drawRect([LTWH[0] + (LTWH[2] - frac[sliceDim] * LTWH[2]), LTWH[1], 1, LTWH[3]])
+-        } else {
+-          this.drawRect([LTWH[0] + frac[sliceDim] * LTWH[2], LTWH[1], 1, LTWH[3]])
+-        }
++        const x = isRadiolgical
++          ? LTWH[0] + (LTWH[2] - frac[sliceDim] * LTWH[2])
++          : LTWH[0] + frac[sliceDim] * LTWH[2]
++        this.drawDottedLine([x, LTWH[1], x, LTWH[1] + LTWH[3]], thick)
+       }
+     }
+   }
+diff --git a/node_modules/@niivue/niivue/src/nvdocument.ts b/node_modules/@niivue/niivue/src/nvdocument.ts
+index c3cdaa4..74d3338 100644
+--- a/node_modules/@niivue/niivue/src/nvdocument.ts
++++ b/node_modules/@niivue/niivue/src/nvdocument.ts
+@@ -165,6 +165,7 @@ export type NVConfigOptions = {
+   measureTextColor: number[]
+   measureLineColor: number[]
+   measureTextHeight: number
++  invertScrollDirection: boolean
+ }
+ 
+ export const DEFAULT_OPTIONS: NVConfigOptions = {
+@@ -258,7 +259,8 @@ export const DEFAULT_OPTIONS: NVConfigOptions = {
+   measureTextJustify: 'center', // start, center, end
+   measureTextColor: [1, 0, 0, 1], // red
+   measureLineColor: [1, 0, 0, 1], // red
+-  measureTextHeight: 0.03
++  measureTextHeight: 0.03,
++  invertScrollDirection: false,
+ }
+ 
+ type SceneData = {
